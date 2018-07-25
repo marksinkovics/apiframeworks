@@ -7,10 +7,10 @@ The list of features, which would be implemented, can be found [here](api.md)
 
 ## Frameworks
 
-| Language | Framework | Implemented steps |
+| Language | Framework | Implemented API steps |
 :---: | :---: | ---:
+Swift | Kitura | 1, 2, 3, 4, 5 |
 Swift | Vapor | |
-Swift | Kitura | |
 Node.js | Express | |
 Node.js | Hapi | |
 Node.js | Koa | |
