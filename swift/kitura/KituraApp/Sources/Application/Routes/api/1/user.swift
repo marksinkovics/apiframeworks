@@ -17,7 +17,7 @@ extension API.V1 {
                 if let user = Database.shared.users().first(where: {$0.id == id}) {
                     try res.send(json: user).end()
                 } else {
-                    res.status(.notFound)
+                    try res.status(.notFound).end()
                 }
             }
             
@@ -44,6 +44,16 @@ extension API.V1 {
                 user.id = "id\(Database.shared.counter)"
                 Database.shared.add(user: user)
                 try res.status(.created).end()
+            }
+            
+            router.delete("/:id+") {req, res, next in
+                let id = req.parameters["id"] ?? ""
+                if let user = Database.shared.users().first(where: {$0.id == id}) {
+                    Database.shared.remove(user: user)
+                    try res.status(.OK).end()
+                } else {
+                    try res.status(.notFound).end()
+                }
             }
         }
     }

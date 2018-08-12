@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "KituraApp",
     dependencies: [
-      .package(url: "https://github.com/IBM-Swift/Kitura.git", .upToNextMinor(from: "2.4.0")),
+      .package(url: "https://github.com/IBM-Swift/Kitura.git", .upToNextMinor(from: "2.4.1")),
       .package(url: "https://github.com/IBM-Swift/Kitura-CredentialsHTTP.git", .upToNextMinor(from: "2.1.0")),
     ],
     targets: [
