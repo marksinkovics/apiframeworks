@@ -14,7 +14,7 @@ router.get('/:id', function(req, res){
     if (!user) {
         res.sendStatus(404)
     } else {
-        res.json(user);    
+        res.json(user);
     }
 });
 
@@ -25,12 +25,12 @@ router.put('/:id', function(req, res) {
     } else {
         const updatedUser = new UserModel.fromJSON('', req.body);
         user.update(updatedUser)
-        res.json(user);    
+        res.json(user);
     }
 });
 
 router.post('', function(req, res){
-    const id = 'id' + database.counter();
+    const id = database.counter();
     const user = new UserModel.fromJSON(id, req.body);
     database.addUser(user);
     res.json(user)
@@ -42,7 +42,7 @@ router.delete('/:id', function(req, res){
         res.sendStatus(404)
     } else {
         database.removeUser(req.params.id)
-        res.sendStatus(200);    
+        res.sendStatus(200);
     }
 });
 

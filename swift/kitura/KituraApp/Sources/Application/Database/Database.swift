@@ -17,13 +17,10 @@ class Database {
     static let shared = Database()
     
     private var _users :[UserModel] = []
-    public private(set) var counter: Int = 3
+    public private(set) var counter: Int = 1
     
     init() {
-        self._users = [
-            UserModel(id: "id1", username: "user1"),
-            UserModel(id: "id2", username: "user2")
-        ]
+        self._users = []
     }
     
     

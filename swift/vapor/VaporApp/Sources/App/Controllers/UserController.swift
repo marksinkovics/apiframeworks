@@ -6,7 +6,7 @@ final class UserController {
     /// Returns a list of all `User`s.
     func index(_ req: Request) throws -> Future<[User.AuthenticatedUser]> {
         return User.query(on: req).all().map(to: [User.AuthenticatedUser].self, { (authUsers) -> [User.AuthenticatedUser] in
-            return authUsers.map { User.AuthenticatedUser(name: $0.name, id: $0.id) }
+            return authUsers.map { User.AuthenticatedUser(username: $0.username, id: $0.id) }
         })
     }
 
@@ -15,10 +15,23 @@ final class UserController {
         return try req.content.decode(User.self).flatMap { user in
             let hasher = try req.make(BCryptDigest.self)
             let passwordHashed = try hasher.hash(user.password)
-            let newUser = User(name: user.name, password: passwordHashed)
+            let newUser = User(username: user.username, password: passwordHashed)
             return newUser.save(on: req).map(to: User.AuthenticatedUser.self) { authedUser in
-                return try User.AuthenticatedUser(name: authedUser.name, id: authedUser.requireID())
+                return try User.AuthenticatedUser(username: authedUser.username, id: authedUser.requireID())
             }
+        }
+    }
+    
+    /// Update a parameterized `User`
+    func update(_ req: Request) throws -> Future<User.AuthenticatedUser> {
+        let user = try req.parameters.next(User.self)
+        let content = try req.content.decode(User.self)
+
+        return flatMap(to: User.self, user, content) { (user, content) in
+            user.username = content.username
+            return user.save(on: req)
+        }.map(to: User.AuthenticatedUser.self) { authedUser in
+            return try User.AuthenticatedUser(username: authedUser.username, id: authedUser.requireID())
         }
     }
 

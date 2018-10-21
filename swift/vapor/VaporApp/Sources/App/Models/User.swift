@@ -15,22 +15,29 @@ final class User: SQLiteModel {
     var id: Int?
     
     /// A title describing what this `User` entails.
-    var name: String
+    var username: String
     
-    var password: String
+    var password: String = "password"
+    
+    enum CodingKeys: String, CodingKey {
+        case id
+        case username
+    }
     
     /// Creates a new `User`.
-    init(id: Int? = nil, name: String, password: String) {
+    init(id: Int? = nil, username: String, password: String) {
         self.id = id
-        self.name = name
+        self.username = username
         self.password = password
     }
     
-    init(name: String, password: String) {
+    init(username: String, password: String) {
         self.id = nil
-        self.name = name
+        self.username = username
         self.password = password
     }
+    
+    
 
 }
 
@@ -44,18 +51,18 @@ extension User: Content { }
 extension User: Parameter { }
 
 extension User: BasicAuthenticatable {
-    static var usernameKey: UsernameKey { return \User.name }
+    static var usernameKey: UsernameKey { return \User.username }
     static var passwordKey: PasswordKey { return \User.password }
 }
 
 extension User {
     struct AuthenticatedUser: Content {
-        var name: String
+        var username: String
         var id: Int?
     }
     
     struct LoginRequest: Content {
-        var name: String
+        var username: String
         var password: String
     }
 }
