@@ -1,9 +1,14 @@
 # API framework examples
 
-The purpose of this repository to store REST API implementation on different frameworks and languages.
+The purpose of this repository to collect REST API implementation in different frameworks and languages.
 Feel free to recommend and/or extend this list with any other frameworks.
 
-The list of features, which would be implemented, can be found [here](api.md)
+## Documentations
+
+* [API](api.md) define the necessary API features which are implemented in different frameworks
+* [Validation](validation.md) describe the process of validation, necessary scripts
+
+The list of possible features is found in [API document](api.md) and the document about validation process can be found [here](validation.md)
 
 ## Frameworks
 
