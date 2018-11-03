@@ -6,7 +6,7 @@ class Parser
 
     class CmdArguments
         attr_accessor :verbose,
-            :vapor, :kitura, :express
+            :vapor, :kitura, :express, :sinatra
 
         def initialize
             @verbose = false
@@ -17,6 +17,7 @@ class Parser
             @vapor = value
             @kitura = value
             @express = value
+            @sinatra = value
         end
 
     end
@@ -31,6 +32,7 @@ class Parser
         boolean_kitura_option(parser)
         boolean_vapor_option(parser)
         boolean_express_option(parser)
+        boolean_sinatra_option(parser)
     end
 
     def define_options(parser)
@@ -74,6 +76,13 @@ class Parser
         parser.on("--express", "--[no-]express", "Express framework") do |e|
             @arguments.set_all(false) if e
             @arguments.express = e
+        end
+    end
+
+    def boolean_sinatra_option(parser)
+        parser.on("--sinatra", "--[no-]sinatra", "Sinatra framework") do |e|
+            @arguments.set_all(false) if e
+            @arguments.sinatra = e
         end
     end
 

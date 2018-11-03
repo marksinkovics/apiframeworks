@@ -6,6 +6,7 @@ require_relative 'utils/colorize.rb'
 require_relative '../node/express/validator.rb'
 require_relative '../swift/kitura/validator.rb'
 require_relative '../swift/vapor/validator.rb'
+require_relative '../ruby/sinatra/validator.rb'
 
 class Validate
 
@@ -33,6 +34,10 @@ class Validate
 
     if @arguments.express
       validate("node/Express", ExpressValidator)
+    end
+
+    if @arguments.sinatra
+      validate("ruby/Sinatra", SinatraValidator)
     end
   end
 end

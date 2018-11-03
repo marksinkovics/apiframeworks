@@ -23,5 +23,5 @@ Node.js | Koa | | | | | |
 Rust | Rustless | | | | | |
 Rust | Rocket.rs | | | | | |
 C++ | Pistache | | | | | |
-Python | _TBD_ | | | | | |
-Ruby | _TBD_ | | | | | |
+Python | [_TBD_] | | | | | |
+Ruby | [Sinatra](http://sinatrarb.com) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |

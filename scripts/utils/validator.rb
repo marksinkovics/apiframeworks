@@ -66,6 +66,7 @@ class Validator
             :out=>"/dev/null",
             :err=>"/dev/null"
         )
+        sleep(0.5)
         Log::info("Process started: #{child_pid}") if @arguments.verbose
     end
 

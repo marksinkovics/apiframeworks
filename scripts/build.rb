@@ -8,6 +8,7 @@ require_relative 'utils/colorize.rb'
 require_relative '../node/express/builder.rb'
 require_relative '../swift/kitura/builder.rb'
 require_relative '../swift/vapor/builder.rb'
+require_relative '../ruby/sinatra/builder.rb'
 
 class Build
 
@@ -35,6 +36,11 @@ class Build
     if @arguments.express
       build("node/Express", ExpressBuilder)
     end
+
+    if @arguments.sinatra
+      build("ruby/Sinatra", SinatraBuilder)
+    end
+
   end
 end
 
