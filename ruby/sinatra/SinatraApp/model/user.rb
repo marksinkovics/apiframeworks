@@ -2,11 +2,12 @@ require 'json'
 
 class User
 
-  attr_accessor :id, :username
+  attr_accessor :id, :username, :password
 
   def initialize(id=nil, username=nil)
       @id = id
       @username = username
+      @password = "password"
   end
 
   def update(user)

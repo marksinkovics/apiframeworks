@@ -4,6 +4,7 @@ class UserModel {
     constructor(id, username) {
         this.id = id;
         this.username = username;
+        this.password = "password"
     }
 
     toJSON() {
@@ -16,7 +17,7 @@ class UserModel {
     update(user) {
         if (user.username) {
             this.username = user.username;
-        }            
+        }
     }
 }
 

@@ -9,13 +9,16 @@ class Database
     attr_accessor :counter, :users
 
     def initialize
-        puts("alma")
         @counter = 1
         @users = []
     end
 
     def user(id)
         @users.detect { |user| user.id == id }
+    end
+
+    def userByName(name)
+        @users.detect { |user| user.username == name }
     end
 
     def users

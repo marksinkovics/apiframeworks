@@ -5,10 +5,10 @@
    objects = {
       "Cryptor::Cryptor" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_404";
+         buildConfigurationList = "OBJ_405";
          buildPhases = (
-            "OBJ_407",
-            "OBJ_418"
+            "OBJ_408",
+            "OBJ_419"
          );
          dependencies = (
          );
@@ -24,9 +24,9 @@
       };
       "Cryptor::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_420";
+         buildConfigurationList = "OBJ_421";
          buildPhases = (
-            "OBJ_423"
+            "OBJ_424"
          );
          dependencies = (
          );
@@ -36,13 +36,12 @@
       };
       "Kitura-Credentials::Credentials" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_335";
+         buildConfigurationList = "OBJ_336";
          buildPhases = (
-            "OBJ_338",
-            "OBJ_347"
+            "OBJ_339",
+            "OBJ_348"
          );
          dependencies = (
-            "OBJ_359",
             "OBJ_360",
             "OBJ_361",
             "OBJ_362",
@@ -52,7 +51,8 @@
             "OBJ_366",
             "OBJ_367",
             "OBJ_368",
-            "OBJ_369"
+            "OBJ_369",
+            "OBJ_370"
          );
          name = "Credentials";
          productName = "Credentials";
@@ -66,9 +66,9 @@
       };
       "Kitura-Credentials::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_504";
+         buildConfigurationList = "OBJ_505";
          buildPhases = (
-            "OBJ_507"
+            "OBJ_508"
          );
          dependencies = (
          );
@@ -78,13 +78,12 @@
       };
       "Kitura-CredentialsHTTP::CredentialsHTTP" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_370";
+         buildConfigurationList = "OBJ_371";
          buildPhases = (
-            "OBJ_373",
-            "OBJ_379"
+            "OBJ_374",
+            "OBJ_380"
          );
          dependencies = (
-            "OBJ_392",
             "OBJ_393",
             "OBJ_394",
             "OBJ_395",
@@ -95,7 +94,8 @@
             "OBJ_400",
             "OBJ_401",
             "OBJ_402",
-            "OBJ_403"
+            "OBJ_403",
+            "OBJ_404"
          );
          name = "CredentialsHTTP";
          productName = "CredentialsHTTP";
@@ -109,9 +109,9 @@
       };
       "Kitura-CredentialsHTTP::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_498";
+         buildConfigurationList = "OBJ_499";
          buildPhases = (
-            "OBJ_501"
+            "OBJ_502"
          );
          dependencies = (
          );
@@ -121,13 +121,12 @@
       };
       "Kitura-Session::KituraSession" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_650";
+         buildConfigurationList = "OBJ_651";
          buildPhases = (
-            "OBJ_653",
-            "OBJ_665"
+            "OBJ_654",
+            "OBJ_666"
          );
          dependencies = (
-            "OBJ_676",
             "OBJ_677",
             "OBJ_678",
             "OBJ_679",
@@ -136,7 +135,8 @@
             "OBJ_682",
             "OBJ_683",
             "OBJ_684",
-            "OBJ_685"
+            "OBJ_685",
+            "OBJ_686"
          );
          name = "KituraSession";
          productName = "KituraSession";
@@ -150,9 +150,9 @@
       };
       "Kitura-Session::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_510";
+         buildConfigurationList = "OBJ_511";
          buildPhases = (
-            "OBJ_513"
+            "OBJ_514"
          );
          dependencies = (
          );
@@ -162,10 +162,10 @@
       };
       "Kitura-TemplateEngine::KituraTemplateEngine" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_686";
+         buildConfigurationList = "OBJ_687";
          buildPhases = (
-            "OBJ_689",
-            "OBJ_691"
+            "OBJ_690",
+            "OBJ_692"
          );
          dependencies = (
          );
@@ -181,9 +181,9 @@
       };
       "Kitura-TemplateEngine::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_516";
+         buildConfigurationList = "OBJ_517";
          buildPhases = (
-            "OBJ_519"
+            "OBJ_520"
          );
          dependencies = (
          );
@@ -193,11 +193,11 @@
       };
       "Kitura-net::CHTTPParser" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_324";
+         buildConfigurationList = "OBJ_325";
          buildPhases = (
-            "OBJ_327",
-            "OBJ_330",
-            "OBJ_334"
+            "OBJ_328",
+            "OBJ_331",
+            "OBJ_335"
          );
          dependencies = (
          );
@@ -213,16 +213,16 @@
       };
       "Kitura-net::KituraNet" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_595";
+         buildConfigurationList = "OBJ_596";
          buildPhases = (
-            "OBJ_598",
-            "OBJ_635"
+            "OBJ_599",
+            "OBJ_636"
          );
          dependencies = (
-            "OBJ_640",
             "OBJ_641",
             "OBJ_642",
-            "OBJ_643"
+            "OBJ_643",
+            "OBJ_644"
          );
          name = "KituraNet";
          productName = "KituraNet";
@@ -236,9 +236,9 @@
       };
       "Kitura-net::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_522";
+         buildConfigurationList = "OBJ_523";
          buildPhases = (
-            "OBJ_525"
+            "OBJ_526"
          );
          dependencies = (
          );
@@ -248,20 +248,20 @@
       };
       "Kitura::Kitura" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_425";
+         buildConfigurationList = "OBJ_426";
          buildPhases = (
-            "OBJ_428",
-            "OBJ_480"
+            "OBJ_429",
+            "OBJ_481"
          );
          dependencies = (
-            "OBJ_489",
             "OBJ_490",
             "OBJ_491",
             "OBJ_492",
             "OBJ_493",
             "OBJ_494",
             "OBJ_495",
-            "OBJ_496"
+            "OBJ_496",
+            "OBJ_497"
          );
          name = "Kitura";
          productName = "Kitura";
@@ -275,9 +275,9 @@
       };
       "Kitura::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_645";
+         buildConfigurationList = "OBJ_646";
          buildPhases = (
-            "OBJ_648"
+            "OBJ_649"
          );
          dependencies = (
          );
@@ -287,25 +287,25 @@
       };
       "KituraApp::Application" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_237";
+         buildConfigurationList = "OBJ_238";
          buildPhases = (
-            "OBJ_240",
-            "OBJ_249"
+            "OBJ_241",
+            "OBJ_250"
          );
          dependencies = (
-            "OBJ_263",
-            "OBJ_265",
-            "OBJ_267",
-            "OBJ_269",
-            "OBJ_271",
-            "OBJ_273",
-            "OBJ_275",
-            "OBJ_277",
-            "OBJ_279",
-            "OBJ_281",
-            "OBJ_283",
-            "OBJ_285",
-            "OBJ_287"
+            "OBJ_264",
+            "OBJ_266",
+            "OBJ_268",
+            "OBJ_270",
+            "OBJ_272",
+            "OBJ_274",
+            "OBJ_276",
+            "OBJ_278",
+            "OBJ_280",
+            "OBJ_282",
+            "OBJ_284",
+            "OBJ_286",
+            "OBJ_288"
          );
          name = "Application";
          productName = "Application";
@@ -319,13 +319,12 @@
       };
       "KituraApp::ApplicationTests" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_290";
+         buildConfigurationList = "OBJ_291";
          buildPhases = (
-            "OBJ_293",
-            "OBJ_295"
+            "OBJ_294",
+            "OBJ_296"
          );
          dependencies = (
-            "OBJ_310",
             "OBJ_311",
             "OBJ_312",
             "OBJ_313",
@@ -338,7 +337,8 @@
             "OBJ_320",
             "OBJ_321",
             "OBJ_322",
-            "OBJ_323"
+            "OBJ_323",
+            "OBJ_324"
          );
          name = "ApplicationTests";
          productName = "ApplicationTests";
@@ -352,13 +352,12 @@
       };
       "KituraApp::KituraApp" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_528";
+         buildConfigurationList = "OBJ_529";
          buildPhases = (
-            "OBJ_531",
-            "OBJ_533"
+            "OBJ_532",
+            "OBJ_534"
          );
          dependencies = (
-            "OBJ_548",
             "OBJ_549",
             "OBJ_550",
             "OBJ_551",
@@ -371,7 +370,8 @@
             "OBJ_558",
             "OBJ_559",
             "OBJ_560",
-            "OBJ_561"
+            "OBJ_561",
+            "OBJ_562"
          );
          name = "KituraApp";
          productName = "KituraApp";
@@ -385,20 +385,20 @@
       };
       "KituraApp::KituraAppPackageTests::ProductTarget" = {
          isa = "PBXAggregateTarget";
-         buildConfigurationList = "OBJ_569";
+         buildConfigurationList = "OBJ_570";
          buildPhases = (
          );
          dependencies = (
-            "OBJ_572"
+            "OBJ_573"
          );
          name = "KituraAppPackageTests";
          productName = "KituraAppPackageTests";
       };
       "KituraApp::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_563";
+         buildConfigurationList = "OBJ_564";
          buildPhases = (
-            "OBJ_566"
+            "OBJ_567"
          );
          dependencies = (
          );
@@ -408,13 +408,13 @@
       };
       "KituraContracts::KituraContracts" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_573";
+         buildConfigurationList = "OBJ_574";
          buildPhases = (
-            "OBJ_576",
-            "OBJ_586"
+            "OBJ_577",
+            "OBJ_587"
          );
          dependencies = (
-            "OBJ_588"
+            "OBJ_589"
          );
          name = "KituraContracts";
          productName = "KituraContracts";
@@ -428,9 +428,9 @@
       };
       "KituraContracts::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_590";
+         buildConfigurationList = "OBJ_591";
          buildPhases = (
-            "OBJ_593"
+            "OBJ_594"
          );
          dependencies = (
          );
@@ -440,10 +440,10 @@
       };
       "LoggerAPI::LoggerAPI" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_692";
+         buildConfigurationList = "OBJ_693";
          buildPhases = (
-            "OBJ_695",
-            "OBJ_697"
+            "OBJ_696",
+            "OBJ_698"
          );
          dependencies = (
          );
@@ -459,9 +459,9 @@
       };
       "LoggerAPI::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_699";
+         buildConfigurationList = "OBJ_700";
          buildPhases = (
-            "OBJ_702"
+            "OBJ_703"
          );
          dependencies = (
          );
@@ -482,7 +482,7 @@
             "en"
          );
          mainGroup = "OBJ_5";
-         productRefGroup = "OBJ_219";
+         productRefGroup = "OBJ_220";
          projectDirPath = ".";
          targets = (
             "KituraApp::Application",
@@ -520,16 +520,11 @@
       "OBJ_10" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_11",
-            "OBJ_12",
-            "OBJ_14",
-            "OBJ_16",
-            "OBJ_17",
-            "OBJ_19"
+            "OBJ_11"
          );
-         name = "Application";
-         path = "Sources/Application";
-         sourceTree = "SOURCE_ROOT";
+         name = "Authentication";
+         path = "Authentication";
+         sourceTree = "<group>";
       };
       "OBJ_100" = {
          isa = "PBXFileReference";
@@ -583,7 +578,7 @@
       };
       "OBJ_11" = {
          isa = "PBXFileReference";
-         path = "Application.swift";
+         path = "Authentication.swift";
          sourceTree = "<group>";
       };
       "OBJ_110" = {
@@ -653,8 +648,8 @@
          children = (
             "OBJ_13"
          );
-         name = "Authentication";
-         path = "Authentication";
+         name = "Database";
+         path = "Database";
          sourceTree = "<group>";
       };
       "OBJ_120" = {
@@ -724,7 +719,7 @@
       };
       "OBJ_13" = {
          isa = "PBXFileReference";
-         path = "Authentication.swift";
+         path = "Database.swift";
          sourceTree = "<group>";
       };
       "OBJ_130" = {
@@ -806,12 +801,8 @@
          sourceTree = "<group>";
       };
       "OBJ_14" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_15"
-         );
-         name = "Database";
-         path = "Database";
+         isa = "PBXFileReference";
+         path = "InitializationError.swift";
          sourceTree = "<group>";
       };
       "OBJ_140" = {
@@ -874,8 +865,12 @@
          sourceTree = "<group>";
       };
       "OBJ_15" = {
-         isa = "PBXFileReference";
-         path = "Database.swift";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_16"
+         );
+         name = "Model";
+         path = "Model";
          sourceTree = "<group>";
       };
       "OBJ_150" = {
@@ -913,8 +908,8 @@
          isa = "PBXGroup";
          children = (
             "OBJ_155",
-            "OBJ_156",
-            "OBJ_197",
+            "OBJ_162",
+            "OBJ_163",
             "OBJ_204"
          );
          name = "Kitura-net 2.1.2";
@@ -924,72 +919,62 @@
       "OBJ_155" = {
          isa = "PBXGroup";
          children = (
+            "OBJ_156",
+            "OBJ_157",
+            "OBJ_158"
          );
-         name = "CCurl";
-         path = ".build/checkouts/Kitura-net.git-8533818429397462884/Sources/CCurl";
+         name = "CHTTPParser";
+         path = ".build/checkouts/Kitura-net.git-8533818429397462884/Sources/CHTTPParser";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_156" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_157",
-            "OBJ_158",
-            "OBJ_159",
-            "OBJ_160",
-            "OBJ_161",
-            "OBJ_162",
-            "OBJ_163",
-            "OBJ_170",
-            "OBJ_177",
-            "OBJ_182",
-            "OBJ_183",
-            "OBJ_184",
-            "OBJ_185",
-            "OBJ_186",
-            "OBJ_187",
-            "OBJ_188",
-            "OBJ_189",
-            "OBJ_195",
-            "OBJ_196"
-         );
-         name = "KituraNet";
-         path = ".build/checkouts/Kitura-net.git-8533818429397462884/Sources/KituraNet";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "http_parser.c";
+         sourceTree = "<group>";
       };
       "OBJ_157" = {
          isa = "PBXFileReference";
-         path = "BufferList.swift";
+         path = "utils.c";
          sourceTree = "<group>";
       };
       "OBJ_158" = {
-         isa = "PBXFileReference";
-         path = "ClientRequest.swift";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_159",
+            "OBJ_160",
+            "OBJ_161"
+         );
+         name = "include";
+         path = "include";
          sourceTree = "<group>";
       };
       "OBJ_159" = {
          isa = "PBXFileReference";
-         path = "ClientResponse.swift";
+         path = "utils.h";
          sourceTree = "<group>";
       };
       "OBJ_16" = {
          isa = "PBXFileReference";
-         path = "InitializationError.swift";
+         path = "UserModel.swift";
          sourceTree = "<group>";
       };
       "OBJ_160" = {
          isa = "PBXFileReference";
-         path = "ConnectionUpgradeFactory.swift";
+         path = "http_parser.h";
          sourceTree = "<group>";
       };
       "OBJ_161" = {
          isa = "PBXFileReference";
-         path = "ConnectionUpgrader.swift";
+         path = "CHTTPParser.h";
          sourceTree = "<group>";
       };
       "OBJ_162" = {
-         isa = "PBXFileReference";
-         path = "Error.swift";
-         sourceTree = "<group>";
+         isa = "PBXGroup";
+         children = (
+         );
+         name = "CCurl";
+         path = ".build/checkouts/Kitura-net.git-8533818429397462884/Sources/CCurl";
+         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_163" = {
          isa = "PBXGroup";
@@ -999,49 +984,63 @@
             "OBJ_166",
             "OBJ_167",
             "OBJ_168",
-            "OBJ_169"
+            "OBJ_169",
+            "OBJ_170",
+            "OBJ_177",
+            "OBJ_184",
+            "OBJ_189",
+            "OBJ_190",
+            "OBJ_191",
+            "OBJ_192",
+            "OBJ_193",
+            "OBJ_194",
+            "OBJ_195",
+            "OBJ_196",
+            "OBJ_202",
+            "OBJ_203"
          );
-         name = "FastCGI";
-         path = "FastCGI";
-         sourceTree = "<group>";
+         name = "KituraNet";
+         path = ".build/checkouts/Kitura-net.git-8533818429397462884/Sources/KituraNet";
+         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_164" = {
          isa = "PBXFileReference";
-         path = "FastCGI.swift";
+         path = "BufferList.swift";
          sourceTree = "<group>";
       };
       "OBJ_165" = {
          isa = "PBXFileReference";
-         path = "FastCGIRecordCreate.swift";
+         path = "ClientRequest.swift";
          sourceTree = "<group>";
       };
       "OBJ_166" = {
          isa = "PBXFileReference";
-         path = "FastCGIRecordParser.swift";
+         path = "ClientResponse.swift";
          sourceTree = "<group>";
       };
       "OBJ_167" = {
          isa = "PBXFileReference";
-         path = "FastCGIServer.swift";
+         path = "ConnectionUpgradeFactory.swift";
          sourceTree = "<group>";
       };
       "OBJ_168" = {
          isa = "PBXFileReference";
-         path = "FastCGIServerRequest.swift";
+         path = "ConnectionUpgrader.swift";
          sourceTree = "<group>";
       };
       "OBJ_169" = {
          isa = "PBXFileReference";
-         path = "FastCGIServerResponse.swift";
+         path = "Error.swift";
          sourceTree = "<group>";
       };
       "OBJ_17" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_18"
+            "OBJ_18",
+            "OBJ_19"
          );
-         name = "Model";
-         path = "Model";
+         name = "Routes";
+         path = "Routes";
          sourceTree = "<group>";
       };
       "OBJ_170" = {
@@ -1054,38 +1053,38 @@
             "OBJ_175",
             "OBJ_176"
          );
-         name = "HTTP";
-         path = "HTTP";
+         name = "FastCGI";
+         path = "FastCGI";
          sourceTree = "<group>";
       };
       "OBJ_171" = {
          isa = "PBXFileReference";
-         path = "HTTP.swift";
+         path = "FastCGI.swift";
          sourceTree = "<group>";
       };
       "OBJ_172" = {
          isa = "PBXFileReference";
-         path = "HTTPServer.swift";
+         path = "FastCGIRecordCreate.swift";
          sourceTree = "<group>";
       };
       "OBJ_173" = {
          isa = "PBXFileReference";
-         path = "HTTPServerRequest.swift";
+         path = "FastCGIRecordParser.swift";
          sourceTree = "<group>";
       };
       "OBJ_174" = {
          isa = "PBXFileReference";
-         path = "HTTPServerResponse.swift";
+         path = "FastCGIServer.swift";
          sourceTree = "<group>";
       };
       "OBJ_175" = {
          isa = "PBXFileReference";
-         path = "IncomingHTTPSocketProcessor.swift";
+         path = "FastCGIServerRequest.swift";
          sourceTree = "<group>";
       };
       "OBJ_176" = {
          isa = "PBXFileReference";
-         path = "KeepAliveState.swift";
+         path = "FastCGIServerResponse.swift";
          sourceTree = "<group>";
       };
       "OBJ_177" = {
@@ -1094,149 +1093,152 @@
             "OBJ_178",
             "OBJ_179",
             "OBJ_180",
-            "OBJ_181"
+            "OBJ_181",
+            "OBJ_182",
+            "OBJ_183"
+         );
+         name = "HTTP";
+         path = "HTTP";
+         sourceTree = "<group>";
+      };
+      "OBJ_178" = {
+         isa = "PBXFileReference";
+         path = "HTTP.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_179" = {
+         isa = "PBXFileReference";
+         path = "HTTPServer.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_18" = {
+         isa = "PBXFileReference";
+         path = "Api.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_180" = {
+         isa = "PBXFileReference";
+         path = "HTTPServerRequest.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_181" = {
+         isa = "PBXFileReference";
+         path = "HTTPServerResponse.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_182" = {
+         isa = "PBXFileReference";
+         path = "IncomingHTTPSocketProcessor.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_183" = {
+         isa = "PBXFileReference";
+         path = "KeepAliveState.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_184" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_185",
+            "OBJ_186",
+            "OBJ_187",
+            "OBJ_188"
          );
          name = "HTTPParser";
          path = "HTTPParser";
          sourceTree = "<group>";
       };
-      "OBJ_178" = {
+      "OBJ_185" = {
          isa = "PBXFileReference";
          path = "HTTPParser.swift";
          sourceTree = "<group>";
       };
-      "OBJ_179" = {
+      "OBJ_186" = {
          isa = "PBXFileReference";
          path = "HTTPParserStatus.swift";
          sourceTree = "<group>";
       };
-      "OBJ_18" = {
-         isa = "PBXFileReference";
-         path = "UserModel.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_180" = {
+      "OBJ_187" = {
          isa = "PBXFileReference";
          path = "ParseResults.swift";
          sourceTree = "<group>";
       };
-      "OBJ_181" = {
+      "OBJ_188" = {
          isa = "PBXFileReference";
          path = "URLParser.swift";
          sourceTree = "<group>";
       };
-      "OBJ_182" = {
+      "OBJ_189" = {
          isa = "PBXFileReference";
          path = "HeadersContainer.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_183" = {
-         isa = "PBXFileReference";
-         path = "IncomingSocketHandler.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_184" = {
-         isa = "PBXFileReference";
-         path = "IncomingSocketManager.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_185" = {
-         isa = "PBXFileReference";
-         path = "IncomingSocketProcessor.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_186" = {
-         isa = "PBXFileReference";
-         path = "IncomingSocketProcessorCreator.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_187" = {
-         isa = "PBXFileReference";
-         path = "ListenerGroup.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_188" = {
-         isa = "PBXFileReference";
-         path = "SPIUtils.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_189" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_190",
-            "OBJ_191",
-            "OBJ_192",
-            "OBJ_193",
-            "OBJ_194"
-         );
-         name = "Server";
-         path = "Server";
          sourceTree = "<group>";
       };
       "OBJ_19" = {
          isa = "PBXGroup";
          children = (
             "OBJ_20",
-            "OBJ_21"
+            "OBJ_22"
          );
-         name = "Routes";
-         path = "Routes";
+         name = "api";
+         path = "api";
          sourceTree = "<group>";
       };
       "OBJ_190" = {
          isa = "PBXFileReference";
-         path = "Server.swift";
+         path = "IncomingSocketHandler.swift";
          sourceTree = "<group>";
       };
       "OBJ_191" = {
          isa = "PBXFileReference";
-         path = "ServerDelegate.swift";
+         path = "IncomingSocketManager.swift";
          sourceTree = "<group>";
       };
       "OBJ_192" = {
          isa = "PBXFileReference";
-         path = "ServerLifecycleListener.swift";
+         path = "IncomingSocketProcessor.swift";
          sourceTree = "<group>";
       };
       "OBJ_193" = {
          isa = "PBXFileReference";
-         path = "ServerMonitor.swift";
+         path = "IncomingSocketProcessorCreator.swift";
          sourceTree = "<group>";
       };
       "OBJ_194" = {
          isa = "PBXFileReference";
-         path = "ServerState.swift";
+         path = "ListenerGroup.swift";
          sourceTree = "<group>";
       };
       "OBJ_195" = {
          isa = "PBXFileReference";
-         path = "ServerRequest.swift";
+         path = "SPIUtils.swift";
          sourceTree = "<group>";
       };
       "OBJ_196" = {
-         isa = "PBXFileReference";
-         path = "ServerResponse.swift";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_197",
+            "OBJ_198",
+            "OBJ_199",
+            "OBJ_200",
+            "OBJ_201"
+         );
+         name = "Server";
+         path = "Server";
          sourceTree = "<group>";
       };
       "OBJ_197" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_198",
-            "OBJ_199",
-            "OBJ_200"
-         );
-         name = "CHTTPParser";
-         path = ".build/checkouts/Kitura-net.git-8533818429397462884/Sources/CHTTPParser";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "Server.swift";
+         sourceTree = "<group>";
       };
       "OBJ_198" = {
          isa = "PBXFileReference";
-         path = "http_parser.c";
+         path = "ServerDelegate.swift";
          sourceTree = "<group>";
       };
       "OBJ_199" = {
          isa = "PBXFileReference";
-         path = "utils.c";
+         path = "ServerLifecycleListener.swift";
          sourceTree = "<group>";
       };
       "OBJ_2" = {
@@ -1249,34 +1251,32 @@
          defaultConfigurationName = "Release";
       };
       "OBJ_20" = {
-         isa = "PBXFileReference";
-         path = "Api.swift";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_21"
+         );
+         name = "1";
+         path = "1";
          sourceTree = "<group>";
       };
       "OBJ_200" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_201",
-            "OBJ_202",
-            "OBJ_203"
-         );
-         name = "include";
-         path = "include";
+         isa = "PBXFileReference";
+         path = "ServerMonitor.swift";
          sourceTree = "<group>";
       };
       "OBJ_201" = {
          isa = "PBXFileReference";
-         path = "utils.h";
+         path = "ServerState.swift";
          sourceTree = "<group>";
       };
       "OBJ_202" = {
          isa = "PBXFileReference";
-         path = "http_parser.h";
+         path = "ServerRequest.swift";
          sourceTree = "<group>";
       };
       "OBJ_203" = {
          isa = "PBXFileReference";
-         path = "CHTTPParser.h";
+         path = "ServerResponse.swift";
          sourceTree = "<group>";
       };
       "OBJ_204" = {
@@ -1290,16 +1290,17 @@
          isa = "PBXGroup";
          children = (
             "OBJ_206",
-            "OBJ_208"
+            "OBJ_209"
          );
-         name = "SSLService 1.0.23";
+         name = "SSLService 1.0.24";
          path = "";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_206" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_207"
+            "OBJ_207",
+            "OBJ_208"
          );
          name = "SSLService";
          path = ".build/checkouts/BlueSSLService.git--6926645159248782287/Sources/SSLService";
@@ -1307,185 +1308,146 @@
       };
       "OBJ_207" = {
          isa = "PBXFileReference";
-         path = "SSLService.swift";
+         path = "SSLPointerTricks.swift";
          sourceTree = "<group>";
       };
       "OBJ_208" = {
+         isa = "PBXFileReference";
+         path = "SSLService.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_209" = {
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
          path = "/Users/msinkovics/workspace/workspace_private/apiframeworks/swift/kitura/KituraApp/.build/checkouts/BlueSSLService.git--6926645159248782287/Package.swift";
          sourceTree = "<group>";
       };
-      "OBJ_209" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_210",
-            "OBJ_214"
-         );
-         name = "Socket 1.0.23";
-         path = "";
-         sourceTree = "SOURCE_ROOT";
-      };
       "OBJ_21" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_22",
-            "OBJ_24"
-         );
-         name = "api";
-         path = "api";
+         isa = "PBXFileReference";
+         path = "user.swift";
          sourceTree = "<group>";
       };
       "OBJ_210" = {
          isa = "PBXGroup";
          children = (
             "OBJ_211",
+            "OBJ_215"
+         );
+         name = "Socket 1.0.24";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_211" = {
+         isa = "PBXGroup";
+         children = (
             "OBJ_212",
-            "OBJ_213"
+            "OBJ_213",
+            "OBJ_214"
          );
          name = "Socket";
          path = ".build/checkouts/BlueSocket.git--8530316965219606688/Sources/Socket";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_211" = {
+      "OBJ_212" = {
          isa = "PBXFileReference";
          path = "Socket.swift";
          sourceTree = "<group>";
       };
-      "OBJ_212" = {
+      "OBJ_213" = {
          isa = "PBXFileReference";
          path = "SocketProtocols.swift";
          sourceTree = "<group>";
       };
-      "OBJ_213" = {
+      "OBJ_214" = {
          isa = "PBXFileReference";
          path = "SocketUtils.swift";
          sourceTree = "<group>";
       };
-      "OBJ_214" = {
+      "OBJ_215" = {
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
          path = "/Users/msinkovics/workspace/workspace_private/apiframeworks/swift/kitura/KituraApp/.build/checkouts/BlueSocket.git--8530316965219606688/Package.swift";
          sourceTree = "<group>";
       };
-      "OBJ_215" = {
+      "OBJ_216" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_216",
-            "OBJ_218"
+            "OBJ_217",
+            "OBJ_219"
          );
          name = "LoggerAPI 1.7.3";
          path = "";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_216" = {
+      "OBJ_217" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_217"
+            "OBJ_218"
          );
          name = "LoggerAPI";
          path = ".build/checkouts/LoggerAPI.git-6390048682670038979/Sources/LoggerAPI";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_217" = {
+      "OBJ_218" = {
          isa = "PBXFileReference";
          path = "Logger.swift";
          sourceTree = "<group>";
       };
-      "OBJ_218" = {
+      "OBJ_219" = {
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
          path = "/Users/msinkovics/workspace/workspace_private/apiframeworks/swift/kitura/KituraApp/.build/checkouts/LoggerAPI.git-6390048682670038979/Package.swift";
          sourceTree = "<group>";
       };
-      "OBJ_219" = {
+      "OBJ_22" = {
+         isa = "PBXFileReference";
+         path = "v1.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_220" = {
          isa = "PBXGroup";
          children = (
-            "Cryptor::Cryptor::Product",
+            "KituraApp::Application::Product",
+            "Kitura-net::CHTTPParser::Product",
+            "LoggerAPI::LoggerAPI::Product",
+            "KituraApp::KituraApp::Product",
+            "Kitura-TemplateEngine::KituraTemplateEngine::Product",
+            "KituraContracts::KituraContracts::Product",
+            "Kitura::Kitura::Product",
             "Kitura-net::KituraNet::Product",
             "SSLService::SSLService::Product",
+            "Kitura-Session::KituraSession::Product",
+            "Cryptor::Cryptor::Product",
             "Kitura-CredentialsHTTP::CredentialsHTTP::Product",
-            "Kitura-net::CHTTPParser::Product",
-            "Socket::Socket::Product",
-            "Kitura-TemplateEngine::KituraTemplateEngine::Product",
-            "Kitura::Kitura::Product",
-            "KituraContracts::KituraContracts::Product",
-            "TypeDecoder::TypeDecoder::Product",
-            "Kitura-Credentials::Credentials::Product",
-            "KituraApp::Application::Product",
-            "KituraApp::KituraApp::Product",
-            "LoggerAPI::LoggerAPI::Product",
             "KituraApp::ApplicationTests::Product",
-            "Kitura-Session::KituraSession::Product"
+            "TypeDecoder::TypeDecoder::Product",
+            "Socket::Socket::Product",
+            "Kitura-Credentials::Credentials::Product"
          );
          name = "Products";
          path = "";
          sourceTree = "BUILT_PRODUCTS_DIR";
       };
-      "OBJ_22" = {
+      "OBJ_23" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_23"
+            "OBJ_24"
          );
-         name = "1";
-         path = "1";
-         sourceTree = "<group>";
+         name = "KituraApp";
+         path = "Sources/KituraApp";
+         sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_23" = {
-         isa = "PBXFileReference";
-         path = "user.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_237" = {
+      "OBJ_238" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_238",
-            "OBJ_239"
+            "OBJ_239",
+            "OBJ_240"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_238" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CHTTPParser/include"
-            );
-            INFOPLIST_FILE = "KituraApp.xcodeproj/Application_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "Application";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.0";
-            TARGET_NAME = "Application";
-         };
-         name = "Debug";
       };
       "OBJ_239" = {
          isa = "XCBuildConfiguration";
@@ -1524,75 +1486,96 @@
             SWIFT_VERSION = "4.0";
             TARGET_NAME = "Application";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_24" = {
          isa = "PBXFileReference";
-         path = "v1.swift";
+         path = "main.swift";
          sourceTree = "<group>";
       };
       "OBJ_240" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CHTTPParser/include"
+            );
+            INFOPLIST_FILE = "KituraApp.xcodeproj/Application_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "Application";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "Application";
+         };
+         name = "Release";
+      };
+      "OBJ_241" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_241",
             "OBJ_242",
             "OBJ_243",
             "OBJ_244",
             "OBJ_245",
             "OBJ_246",
             "OBJ_247",
-            "OBJ_248"
+            "OBJ_248",
+            "OBJ_249"
          );
-      };
-      "OBJ_241" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_11";
       };
       "OBJ_242" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_13";
+         fileRef = "OBJ_9";
       };
       "OBJ_243" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_15";
+         fileRef = "OBJ_11";
       };
       "OBJ_244" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_16";
+         fileRef = "OBJ_13";
       };
       "OBJ_245" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_18";
+         fileRef = "OBJ_14";
       };
       "OBJ_246" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_20";
+         fileRef = "OBJ_16";
       };
       "OBJ_247" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_23";
+         fileRef = "OBJ_18";
       };
       "OBJ_248" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_24";
+         fileRef = "OBJ_21";
       };
       "OBJ_249" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_250",
-            "OBJ_251",
-            "OBJ_252",
-            "OBJ_253",
-            "OBJ_254",
-            "OBJ_255",
-            "OBJ_256",
-            "OBJ_257",
-            "OBJ_258",
-            "OBJ_259",
-            "OBJ_260",
-            "OBJ_261",
-            "OBJ_262"
-         );
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_22";
       };
       "OBJ_25" = {
          isa = "PBXGroup";
@@ -1604,44 +1587,58 @@
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_250" = {
-         isa = "PBXBuildFile";
-         fileRef = "Kitura-CredentialsHTTP::CredentialsHTTP::Product";
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_251",
+            "OBJ_252",
+            "OBJ_253",
+            "OBJ_254",
+            "OBJ_255",
+            "OBJ_256",
+            "OBJ_257",
+            "OBJ_258",
+            "OBJ_259",
+            "OBJ_260",
+            "OBJ_261",
+            "OBJ_262",
+            "OBJ_263"
+         );
       };
       "OBJ_251" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-Credentials::Credentials::Product";
+         fileRef = "Kitura-CredentialsHTTP::CredentialsHTTP::Product";
       };
       "OBJ_252" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-Session::KituraSession::Product";
+         fileRef = "Kitura-Credentials::Credentials::Product";
       };
       "OBJ_253" = {
          isa = "PBXBuildFile";
-         fileRef = "Cryptor::Cryptor::Product";
+         fileRef = "Kitura-Session::KituraSession::Product";
       };
       "OBJ_254" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura::Kitura::Product";
+         fileRef = "Cryptor::Cryptor::Product";
       };
       "OBJ_255" = {
          isa = "PBXBuildFile";
-         fileRef = "TypeDecoder::TypeDecoder::Product";
+         fileRef = "Kitura::Kitura::Product";
       };
       "OBJ_256" = {
          isa = "PBXBuildFile";
-         fileRef = "KituraContracts::KituraContracts::Product";
+         fileRef = "TypeDecoder::TypeDecoder::Product";
       };
       "OBJ_257" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-TemplateEngine::KituraTemplateEngine::Product";
+         fileRef = "KituraContracts::KituraContracts::Product";
       };
       "OBJ_258" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-net::KituraNet::Product";
+         fileRef = "Kitura-TemplateEngine::KituraTemplateEngine::Product";
       };
       "OBJ_259" = {
          isa = "PBXBuildFile";
-         fileRef = "SSLService::SSLService::Product";
+         fileRef = "Kitura-net::KituraNet::Product";
       };
       "OBJ_26" = {
          isa = "PBXGroup";
@@ -1654,56 +1651,56 @@
       };
       "OBJ_260" = {
          isa = "PBXBuildFile";
-         fileRef = "Socket::Socket::Product";
+         fileRef = "SSLService::SSLService::Product";
       };
       "OBJ_261" = {
          isa = "PBXBuildFile";
-         fileRef = "LoggerAPI::LoggerAPI::Product";
+         fileRef = "Socket::Socket::Product";
       };
       "OBJ_262" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-net::CHTTPParser::Product";
+         fileRef = "LoggerAPI::LoggerAPI::Product";
       };
       "OBJ_263" = {
+         isa = "PBXBuildFile";
+         fileRef = "Kitura-net::CHTTPParser::Product";
+      };
+      "OBJ_264" = {
          isa = "PBXTargetDependency";
          target = "Kitura-CredentialsHTTP::CredentialsHTTP";
       };
-      "OBJ_265" = {
+      "OBJ_266" = {
          isa = "PBXTargetDependency";
          target = "Kitura-Credentials::Credentials";
       };
-      "OBJ_267" = {
+      "OBJ_268" = {
          isa = "PBXTargetDependency";
          target = "Kitura-Session::KituraSession";
-      };
-      "OBJ_269" = {
-         isa = "PBXTargetDependency";
-         target = "Cryptor::Cryptor";
       };
       "OBJ_27" = {
          isa = "PBXFileReference";
          path = "RouteTests.swift";
          sourceTree = "<group>";
       };
-      "OBJ_271" = {
+      "OBJ_270" = {
+         isa = "PBXTargetDependency";
+         target = "Cryptor::Cryptor";
+      };
+      "OBJ_272" = {
          isa = "PBXTargetDependency";
          target = "Kitura::Kitura";
       };
-      "OBJ_273" = {
+      "OBJ_274" = {
          isa = "PBXTargetDependency";
          target = "TypeDecoder::TypeDecoder";
       };
-      "OBJ_275" = {
+      "OBJ_276" = {
          isa = "PBXTargetDependency";
          target = "KituraContracts::KituraContracts";
       };
-      "OBJ_277" = {
+      "OBJ_278" = {
          isa = "PBXTargetDependency";
          target = "Kitura-TemplateEngine::KituraTemplateEngine";
-      };
-      "OBJ_279" = {
-         isa = "PBXTargetDependency";
-         target = "Kitura-net::KituraNet";
       };
       "OBJ_28" = {
          isa = "PBXGroup";
@@ -1718,26 +1715,30 @@
             "OBJ_150",
             "OBJ_154",
             "OBJ_205",
-            "OBJ_209",
-            "OBJ_215"
+            "OBJ_210",
+            "OBJ_216"
          );
          name = "Dependencies";
          path = "";
          sourceTree = "<group>";
       };
-      "OBJ_281" = {
+      "OBJ_280" = {
+         isa = "PBXTargetDependency";
+         target = "Kitura-net::KituraNet";
+      };
+      "OBJ_282" = {
          isa = "PBXTargetDependency";
          target = "SSLService::SSLService";
       };
-      "OBJ_283" = {
+      "OBJ_284" = {
          isa = "PBXTargetDependency";
          target = "Socket::Socket";
       };
-      "OBJ_285" = {
+      "OBJ_286" = {
          isa = "PBXTargetDependency";
          target = "LoggerAPI::LoggerAPI";
       };
-      "OBJ_287" = {
+      "OBJ_288" = {
          isa = "PBXTargetDependency";
          target = "Kitura-net::CHTTPParser";
       };
@@ -1747,55 +1748,18 @@
             "OBJ_30",
             "OBJ_36"
          );
-         name = "Kitura-CredentialsHTTP 2.1.0";
+         name = "Kitura-CredentialsHTTP 2.1.1";
          path = "";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_290" = {
+      "OBJ_291" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_291",
-            "OBJ_292"
+            "OBJ_292",
+            "OBJ_293"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_291" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CHTTPParser/include"
-            );
-            INFOPLIST_FILE = "KituraApp.xcodeproj/ApplicationTests_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.0";
-            TARGET_NAME = "ApplicationTests";
-         };
-         name = "Debug";
       };
       "OBJ_292" = {
          isa = "XCBuildConfiguration";
@@ -1832,22 +1796,58 @@
             SWIFT_VERSION = "4.0";
             TARGET_NAME = "ApplicationTests";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_293" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_294"
-         );
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CHTTPParser/include"
+            );
+            INFOPLIST_FILE = "KituraApp.xcodeproj/ApplicationTests_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "ApplicationTests";
+         };
+         name = "Release";
       };
       "OBJ_294" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_295"
+         );
+      };
+      "OBJ_295" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_27";
       };
-      "OBJ_295" = {
+      "OBJ_296" = {
          isa = "PBXFrameworksBuildPhase";
          files = (
-            "OBJ_296",
             "OBJ_297",
             "OBJ_298",
             "OBJ_299",
@@ -1860,24 +1860,21 @@
             "OBJ_306",
             "OBJ_307",
             "OBJ_308",
-            "OBJ_309"
+            "OBJ_309",
+            "OBJ_310"
          );
-      };
-      "OBJ_296" = {
-         isa = "PBXBuildFile";
-         fileRef = "KituraApp::Application::Product";
       };
       "OBJ_297" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-CredentialsHTTP::CredentialsHTTP::Product";
+         fileRef = "KituraApp::Application::Product";
       };
       "OBJ_298" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-Credentials::Credentials::Product";
+         fileRef = "Kitura-CredentialsHTTP::CredentialsHTTP::Product";
       };
       "OBJ_299" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-Session::KituraSession::Product";
+         fileRef = "Kitura-Credentials::Credentials::Product";
       };
       "OBJ_3" = {
          isa = "XCBuildConfiguration";
@@ -1933,43 +1930,43 @@
       };
       "OBJ_300" = {
          isa = "PBXBuildFile";
-         fileRef = "Cryptor::Cryptor::Product";
+         fileRef = "Kitura-Session::KituraSession::Product";
       };
       "OBJ_301" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura::Kitura::Product";
+         fileRef = "Cryptor::Cryptor::Product";
       };
       "OBJ_302" = {
          isa = "PBXBuildFile";
-         fileRef = "TypeDecoder::TypeDecoder::Product";
+         fileRef = "Kitura::Kitura::Product";
       };
       "OBJ_303" = {
          isa = "PBXBuildFile";
-         fileRef = "KituraContracts::KituraContracts::Product";
+         fileRef = "TypeDecoder::TypeDecoder::Product";
       };
       "OBJ_304" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-TemplateEngine::KituraTemplateEngine::Product";
+         fileRef = "KituraContracts::KituraContracts::Product";
       };
       "OBJ_305" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-net::KituraNet::Product";
+         fileRef = "Kitura-TemplateEngine::KituraTemplateEngine::Product";
       };
       "OBJ_306" = {
          isa = "PBXBuildFile";
-         fileRef = "SSLService::SSLService::Product";
+         fileRef = "Kitura-net::KituraNet::Product";
       };
       "OBJ_307" = {
          isa = "PBXBuildFile";
-         fileRef = "Socket::Socket::Product";
+         fileRef = "SSLService::SSLService::Product";
       };
       "OBJ_308" = {
          isa = "PBXBuildFile";
-         fileRef = "LoggerAPI::LoggerAPI::Product";
+         fileRef = "Socket::Socket::Product";
       };
       "OBJ_309" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-net::CHTTPParser::Product";
+         fileRef = "LoggerAPI::LoggerAPI::Product";
       };
       "OBJ_31" = {
          isa = "PBXFileReference";
@@ -1977,44 +1974,44 @@
          sourceTree = "<group>";
       };
       "OBJ_310" = {
-         isa = "PBXTargetDependency";
-         target = "KituraApp::Application";
+         isa = "PBXBuildFile";
+         fileRef = "Kitura-net::CHTTPParser::Product";
       };
       "OBJ_311" = {
          isa = "PBXTargetDependency";
-         target = "Kitura-CredentialsHTTP::CredentialsHTTP";
+         target = "KituraApp::Application";
       };
       "OBJ_312" = {
          isa = "PBXTargetDependency";
-         target = "Kitura-Credentials::Credentials";
+         target = "Kitura-CredentialsHTTP::CredentialsHTTP";
       };
       "OBJ_313" = {
          isa = "PBXTargetDependency";
-         target = "Kitura-Session::KituraSession";
+         target = "Kitura-Credentials::Credentials";
       };
       "OBJ_314" = {
          isa = "PBXTargetDependency";
-         target = "Cryptor::Cryptor";
+         target = "Kitura-Session::KituraSession";
       };
       "OBJ_315" = {
          isa = "PBXTargetDependency";
-         target = "Kitura::Kitura";
+         target = "Cryptor::Cryptor";
       };
       "OBJ_316" = {
          isa = "PBXTargetDependency";
-         target = "TypeDecoder::TypeDecoder";
+         target = "Kitura::Kitura";
       };
       "OBJ_317" = {
          isa = "PBXTargetDependency";
-         target = "KituraContracts::KituraContracts";
+         target = "TypeDecoder::TypeDecoder";
       };
       "OBJ_318" = {
          isa = "PBXTargetDependency";
-         target = "Kitura-TemplateEngine::KituraTemplateEngine";
+         target = "KituraContracts::KituraContracts";
       };
       "OBJ_319" = {
          isa = "PBXTargetDependency";
-         target = "Kitura-net::KituraNet";
+         target = "Kitura-TemplateEngine::KituraTemplateEngine";
       };
       "OBJ_32" = {
          isa = "PBXFileReference";
@@ -2023,67 +2020,32 @@
       };
       "OBJ_320" = {
          isa = "PBXTargetDependency";
-         target = "SSLService::SSLService";
+         target = "Kitura-net::KituraNet";
       };
       "OBJ_321" = {
          isa = "PBXTargetDependency";
-         target = "Socket::Socket";
+         target = "SSLService::SSLService";
       };
       "OBJ_322" = {
          isa = "PBXTargetDependency";
-         target = "LoggerAPI::LoggerAPI";
+         target = "Socket::Socket";
       };
       "OBJ_323" = {
          isa = "PBXTargetDependency";
-         target = "Kitura-net::CHTTPParser";
+         target = "LoggerAPI::LoggerAPI";
       };
       "OBJ_324" = {
+         isa = "PBXTargetDependency";
+         target = "Kitura-net::CHTTPParser";
+      };
+      "OBJ_325" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_325",
-            "OBJ_326"
+            "OBJ_326",
+            "OBJ_327"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_325" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            DEFINES_MODULE = "YES";
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CHTTPParser/include"
-            );
-            INFOPLIST_FILE = "KituraApp.xcodeproj/CHTTPParser_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "CHTTPParser";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            TARGET_NAME = "CHTTPParser";
-         };
-         name = "Debug";
       };
       "OBJ_326" = {
          isa = "XCBuildConfiguration";
@@ -2122,80 +2084,13 @@
             );
             TARGET_NAME = "CHTTPParser";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_327" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_328",
-            "OBJ_329"
-         );
-      };
-      "OBJ_328" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_198";
-      };
-      "OBJ_329" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_199";
-      };
-      "OBJ_33" = {
-         isa = "PBXFileReference";
-         path = "TypeSafeHTTPBasic.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_330" = {
-         isa = "PBXHeadersBuildPhase";
-         files = (
-            "OBJ_331",
-            "OBJ_332",
-            "OBJ_333"
-         );
-      };
-      "OBJ_331" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_201";
-         settings = {
-            ATTRIBUTES = (
-               "Public"
-            );
-         };
-      };
-      "OBJ_332" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_202";
-         settings = {
-            ATTRIBUTES = (
-               "Public"
-            );
-         };
-      };
-      "OBJ_333" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_203";
-         settings = {
-            ATTRIBUTES = (
-               "Public"
-            );
-         };
-      };
-      "OBJ_334" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-         );
-      };
-      "OBJ_335" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_336",
-            "OBJ_337"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_336" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            DEFINES_MODULE = "YES";
             ENABLE_TESTABILITY = "YES";
             FRAMEWORK_SEARCH_PATHS = (
                "$(inherited)",
@@ -2203,10 +2098,9 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CCurl",
                "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CHTTPParser/include"
             );
-            INFOPLIST_FILE = "KituraApp.xcodeproj/Credentials_Info.plist";
+            INFOPLIST_FILE = "KituraApp.xcodeproj/CHTTPParser_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -2220,17 +2114,85 @@
             OTHER_SWIFT_FLAGS = (
                "$(inherited)"
             );
-            PRODUCT_BUNDLE_IDENTIFIER = "Credentials";
+            PRODUCT_BUNDLE_IDENTIFIER = "CHTTPParser";
             PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
             PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
             SKIP_INSTALL = "YES";
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
             );
-            SWIFT_VERSION = "4.0";
-            TARGET_NAME = "Credentials";
+            TARGET_NAME = "CHTTPParser";
          };
-         name = "Debug";
+         name = "Release";
+      };
+      "OBJ_328" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_329",
+            "OBJ_330"
+         );
+      };
+      "OBJ_329" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_156";
+      };
+      "OBJ_33" = {
+         isa = "PBXFileReference";
+         path = "TypeSafeHTTPBasic.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_330" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_157";
+      };
+      "OBJ_331" = {
+         isa = "PBXHeadersBuildPhase";
+         files = (
+            "OBJ_332",
+            "OBJ_333",
+            "OBJ_334"
+         );
+      };
+      "OBJ_332" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_159";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_333" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_160";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_334" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_161";
+         settings = {
+            ATTRIBUTES = (
+               "Public"
+            );
+         };
+      };
+      "OBJ_335" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_336" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_337",
+            "OBJ_338"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
       };
       "OBJ_337" = {
          isa = "XCBuildConfiguration";
@@ -2269,194 +2231,9 @@
             SWIFT_VERSION = "4.0";
             TARGET_NAME = "Credentials";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_338" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_339",
-            "OBJ_340",
-            "OBJ_341",
-            "OBJ_342",
-            "OBJ_343",
-            "OBJ_344",
-            "OBJ_345",
-            "OBJ_346"
-         );
-      };
-      "OBJ_339" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_39";
-      };
-      "OBJ_34" = {
-         isa = "PBXFileReference";
-         path = "UserProfileLoader.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_340" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_40";
-      };
-      "OBJ_341" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_41";
-      };
-      "OBJ_342" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_42";
-      };
-      "OBJ_343" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_43";
-      };
-      "OBJ_344" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_44";
-      };
-      "OBJ_345" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_45";
-      };
-      "OBJ_346" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_46";
-      };
-      "OBJ_347" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_348",
-            "OBJ_349",
-            "OBJ_350",
-            "OBJ_351",
-            "OBJ_352",
-            "OBJ_353",
-            "OBJ_354",
-            "OBJ_355",
-            "OBJ_356",
-            "OBJ_357",
-            "OBJ_358"
-         );
-      };
-      "OBJ_348" = {
-         isa = "PBXBuildFile";
-         fileRef = "Kitura-Session::KituraSession::Product";
-      };
-      "OBJ_349" = {
-         isa = "PBXBuildFile";
-         fileRef = "Cryptor::Cryptor::Product";
-      };
-      "OBJ_35" = {
-         isa = "PBXFileReference";
-         path = "VerifyPassword.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_350" = {
-         isa = "PBXBuildFile";
-         fileRef = "Kitura::Kitura::Product";
-      };
-      "OBJ_351" = {
-         isa = "PBXBuildFile";
-         fileRef = "TypeDecoder::TypeDecoder::Product";
-      };
-      "OBJ_352" = {
-         isa = "PBXBuildFile";
-         fileRef = "KituraContracts::KituraContracts::Product";
-      };
-      "OBJ_353" = {
-         isa = "PBXBuildFile";
-         fileRef = "Kitura-TemplateEngine::KituraTemplateEngine::Product";
-      };
-      "OBJ_354" = {
-         isa = "PBXBuildFile";
-         fileRef = "Kitura-net::KituraNet::Product";
-      };
-      "OBJ_355" = {
-         isa = "PBXBuildFile";
-         fileRef = "SSLService::SSLService::Product";
-      };
-      "OBJ_356" = {
-         isa = "PBXBuildFile";
-         fileRef = "Socket::Socket::Product";
-      };
-      "OBJ_357" = {
-         isa = "PBXBuildFile";
-         fileRef = "LoggerAPI::LoggerAPI::Product";
-      };
-      "OBJ_358" = {
-         isa = "PBXBuildFile";
-         fileRef = "Kitura-net::CHTTPParser::Product";
-      };
-      "OBJ_359" = {
-         isa = "PBXTargetDependency";
-         target = "Kitura-Session::KituraSession";
-      };
-      "OBJ_36" = {
-         isa = "PBXFileReference";
-         explicitFileType = "sourcecode.swift";
-         name = "Package.swift";
-         path = "/Users/msinkovics/workspace/workspace_private/apiframeworks/swift/kitura/KituraApp/.build/checkouts/Kitura-CredentialsHTTP.git--3593040592845342987/Package.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_360" = {
-         isa = "PBXTargetDependency";
-         target = "Cryptor::Cryptor";
-      };
-      "OBJ_361" = {
-         isa = "PBXTargetDependency";
-         target = "Kitura::Kitura";
-      };
-      "OBJ_362" = {
-         isa = "PBXTargetDependency";
-         target = "TypeDecoder::TypeDecoder";
-      };
-      "OBJ_363" = {
-         isa = "PBXTargetDependency";
-         target = "KituraContracts::KituraContracts";
-      };
-      "OBJ_364" = {
-         isa = "PBXTargetDependency";
-         target = "Kitura-TemplateEngine::KituraTemplateEngine";
-      };
-      "OBJ_365" = {
-         isa = "PBXTargetDependency";
-         target = "Kitura-net::KituraNet";
-      };
-      "OBJ_366" = {
-         isa = "PBXTargetDependency";
-         target = "SSLService::SSLService";
-      };
-      "OBJ_367" = {
-         isa = "PBXTargetDependency";
-         target = "Socket::Socket";
-      };
-      "OBJ_368" = {
-         isa = "PBXTargetDependency";
-         target = "LoggerAPI::LoggerAPI";
-      };
-      "OBJ_369" = {
-         isa = "PBXTargetDependency";
-         target = "Kitura-net::CHTTPParser";
-      };
-      "OBJ_37" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_38",
-            "OBJ_47"
-         );
-         name = "Kitura-Credentials 2.3.0";
-         path = "";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_370" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_371",
-            "OBJ_372"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_371" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -2469,7 +2246,7 @@
                "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CCurl",
                "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CHTTPParser/include"
             );
-            INFOPLIST_FILE = "KituraApp.xcodeproj/CredentialsHTTP_Info.plist";
+            INFOPLIST_FILE = "KituraApp.xcodeproj/Credentials_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -2483,7 +2260,7 @@
             OTHER_SWIFT_FLAGS = (
                "$(inherited)"
             );
-            PRODUCT_BUNDLE_IDENTIFIER = "CredentialsHTTP";
+            PRODUCT_BUNDLE_IDENTIFIER = "Credentials";
             PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
             PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
             SKIP_INSTALL = "YES";
@@ -2491,9 +2268,194 @@
                "$(inherited)"
             );
             SWIFT_VERSION = "4.0";
-            TARGET_NAME = "CredentialsHTTP";
+            TARGET_NAME = "Credentials";
          };
-         name = "Debug";
+         name = "Release";
+      };
+      "OBJ_339" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_340",
+            "OBJ_341",
+            "OBJ_342",
+            "OBJ_343",
+            "OBJ_344",
+            "OBJ_345",
+            "OBJ_346",
+            "OBJ_347"
+         );
+      };
+      "OBJ_34" = {
+         isa = "PBXFileReference";
+         path = "UserProfileLoader.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_340" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_39";
+      };
+      "OBJ_341" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_40";
+      };
+      "OBJ_342" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_41";
+      };
+      "OBJ_343" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_42";
+      };
+      "OBJ_344" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_43";
+      };
+      "OBJ_345" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_44";
+      };
+      "OBJ_346" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_45";
+      };
+      "OBJ_347" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_46";
+      };
+      "OBJ_348" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_349",
+            "OBJ_350",
+            "OBJ_351",
+            "OBJ_352",
+            "OBJ_353",
+            "OBJ_354",
+            "OBJ_355",
+            "OBJ_356",
+            "OBJ_357",
+            "OBJ_358",
+            "OBJ_359"
+         );
+      };
+      "OBJ_349" = {
+         isa = "PBXBuildFile";
+         fileRef = "Kitura-Session::KituraSession::Product";
+      };
+      "OBJ_35" = {
+         isa = "PBXFileReference";
+         path = "VerifyPassword.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_350" = {
+         isa = "PBXBuildFile";
+         fileRef = "Cryptor::Cryptor::Product";
+      };
+      "OBJ_351" = {
+         isa = "PBXBuildFile";
+         fileRef = "Kitura::Kitura::Product";
+      };
+      "OBJ_352" = {
+         isa = "PBXBuildFile";
+         fileRef = "TypeDecoder::TypeDecoder::Product";
+      };
+      "OBJ_353" = {
+         isa = "PBXBuildFile";
+         fileRef = "KituraContracts::KituraContracts::Product";
+      };
+      "OBJ_354" = {
+         isa = "PBXBuildFile";
+         fileRef = "Kitura-TemplateEngine::KituraTemplateEngine::Product";
+      };
+      "OBJ_355" = {
+         isa = "PBXBuildFile";
+         fileRef = "Kitura-net::KituraNet::Product";
+      };
+      "OBJ_356" = {
+         isa = "PBXBuildFile";
+         fileRef = "SSLService::SSLService::Product";
+      };
+      "OBJ_357" = {
+         isa = "PBXBuildFile";
+         fileRef = "Socket::Socket::Product";
+      };
+      "OBJ_358" = {
+         isa = "PBXBuildFile";
+         fileRef = "LoggerAPI::LoggerAPI::Product";
+      };
+      "OBJ_359" = {
+         isa = "PBXBuildFile";
+         fileRef = "Kitura-net::CHTTPParser::Product";
+      };
+      "OBJ_36" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         name = "Package.swift";
+         path = "/Users/msinkovics/workspace/workspace_private/apiframeworks/swift/kitura/KituraApp/.build/checkouts/Kitura-CredentialsHTTP.git--3593040592845342987/Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_360" = {
+         isa = "PBXTargetDependency";
+         target = "Kitura-Session::KituraSession";
+      };
+      "OBJ_361" = {
+         isa = "PBXTargetDependency";
+         target = "Cryptor::Cryptor";
+      };
+      "OBJ_362" = {
+         isa = "PBXTargetDependency";
+         target = "Kitura::Kitura";
+      };
+      "OBJ_363" = {
+         isa = "PBXTargetDependency";
+         target = "TypeDecoder::TypeDecoder";
+      };
+      "OBJ_364" = {
+         isa = "PBXTargetDependency";
+         target = "KituraContracts::KituraContracts";
+      };
+      "OBJ_365" = {
+         isa = "PBXTargetDependency";
+         target = "Kitura-TemplateEngine::KituraTemplateEngine";
+      };
+      "OBJ_366" = {
+         isa = "PBXTargetDependency";
+         target = "Kitura-net::KituraNet";
+      };
+      "OBJ_367" = {
+         isa = "PBXTargetDependency";
+         target = "SSLService::SSLService";
+      };
+      "OBJ_368" = {
+         isa = "PBXTargetDependency";
+         target = "Socket::Socket";
+      };
+      "OBJ_369" = {
+         isa = "PBXTargetDependency";
+         target = "LoggerAPI::LoggerAPI";
+      };
+      "OBJ_37" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_38",
+            "OBJ_47"
+         );
+         name = "Kitura-Credentials 2.3.0";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_370" = {
+         isa = "PBXTargetDependency";
+         target = "Kitura-net::CHTTPParser";
+      };
+      "OBJ_371" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_372",
+            "OBJ_373"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
       };
       "OBJ_372" = {
          isa = "XCBuildConfiguration";
@@ -2532,54 +2494,76 @@
             SWIFT_VERSION = "4.0";
             TARGET_NAME = "CredentialsHTTP";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_373" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CHTTPParser/include"
+            );
+            INFOPLIST_FILE = "KituraApp.xcodeproj/CredentialsHTTP_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "CredentialsHTTP";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "CredentialsHTTP";
+         };
+         name = "Release";
+      };
+      "OBJ_374" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_374",
             "OBJ_375",
             "OBJ_376",
             "OBJ_377",
-            "OBJ_378"
+            "OBJ_378",
+            "OBJ_379"
          );
-      };
-      "OBJ_374" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_31";
       };
       "OBJ_375" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_32";
+         fileRef = "OBJ_31";
       };
       "OBJ_376" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_33";
+         fileRef = "OBJ_32";
       };
       "OBJ_377" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_34";
+         fileRef = "OBJ_33";
       };
       "OBJ_378" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_35";
+         fileRef = "OBJ_34";
       };
       "OBJ_379" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_380",
-            "OBJ_381",
-            "OBJ_382",
-            "OBJ_383",
-            "OBJ_384",
-            "OBJ_385",
-            "OBJ_386",
-            "OBJ_387",
-            "OBJ_388",
-            "OBJ_389",
-            "OBJ_390",
-            "OBJ_391"
-         );
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_35";
       };
       "OBJ_38" = {
          isa = "PBXGroup";
@@ -2598,44 +2582,57 @@
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_380" = {
-         isa = "PBXBuildFile";
-         fileRef = "Kitura-Credentials::Credentials::Product";
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_381",
+            "OBJ_382",
+            "OBJ_383",
+            "OBJ_384",
+            "OBJ_385",
+            "OBJ_386",
+            "OBJ_387",
+            "OBJ_388",
+            "OBJ_389",
+            "OBJ_390",
+            "OBJ_391",
+            "OBJ_392"
+         );
       };
       "OBJ_381" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-Session::KituraSession::Product";
+         fileRef = "Kitura-Credentials::Credentials::Product";
       };
       "OBJ_382" = {
          isa = "PBXBuildFile";
-         fileRef = "Cryptor::Cryptor::Product";
+         fileRef = "Kitura-Session::KituraSession::Product";
       };
       "OBJ_383" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura::Kitura::Product";
+         fileRef = "Cryptor::Cryptor::Product";
       };
       "OBJ_384" = {
          isa = "PBXBuildFile";
-         fileRef = "TypeDecoder::TypeDecoder::Product";
+         fileRef = "Kitura::Kitura::Product";
       };
       "OBJ_385" = {
          isa = "PBXBuildFile";
-         fileRef = "KituraContracts::KituraContracts::Product";
+         fileRef = "TypeDecoder::TypeDecoder::Product";
       };
       "OBJ_386" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-TemplateEngine::KituraTemplateEngine::Product";
+         fileRef = "KituraContracts::KituraContracts::Product";
       };
       "OBJ_387" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-net::KituraNet::Product";
+         fileRef = "Kitura-TemplateEngine::KituraTemplateEngine::Product";
       };
       "OBJ_388" = {
          isa = "PBXBuildFile";
-         fileRef = "SSLService::SSLService::Product";
+         fileRef = "Kitura-net::KituraNet::Product";
       };
       "OBJ_389" = {
          isa = "PBXBuildFile";
-         fileRef = "Socket::Socket::Product";
+         fileRef = "SSLService::SSLService::Product";
       };
       "OBJ_39" = {
          isa = "PBXFileReference";
@@ -2644,43 +2641,43 @@
       };
       "OBJ_390" = {
          isa = "PBXBuildFile";
-         fileRef = "LoggerAPI::LoggerAPI::Product";
+         fileRef = "Socket::Socket::Product";
       };
       "OBJ_391" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-net::CHTTPParser::Product";
+         fileRef = "LoggerAPI::LoggerAPI::Product";
       };
       "OBJ_392" = {
-         isa = "PBXTargetDependency";
-         target = "Kitura-Credentials::Credentials";
+         isa = "PBXBuildFile";
+         fileRef = "Kitura-net::CHTTPParser::Product";
       };
       "OBJ_393" = {
          isa = "PBXTargetDependency";
-         target = "Kitura-Session::KituraSession";
+         target = "Kitura-Credentials::Credentials";
       };
       "OBJ_394" = {
          isa = "PBXTargetDependency";
-         target = "Cryptor::Cryptor";
+         target = "Kitura-Session::KituraSession";
       };
       "OBJ_395" = {
          isa = "PBXTargetDependency";
-         target = "Kitura::Kitura";
+         target = "Cryptor::Cryptor";
       };
       "OBJ_396" = {
          isa = "PBXTargetDependency";
-         target = "TypeDecoder::TypeDecoder";
+         target = "Kitura::Kitura";
       };
       "OBJ_397" = {
          isa = "PBXTargetDependency";
-         target = "KituraContracts::KituraContracts";
+         target = "TypeDecoder::TypeDecoder";
       };
       "OBJ_398" = {
          isa = "PBXTargetDependency";
-         target = "Kitura-TemplateEngine::KituraTemplateEngine";
+         target = "KituraContracts::KituraContracts";
       };
       "OBJ_399" = {
          isa = "PBXTargetDependency";
-         target = "Kitura-net::KituraNet";
+         target = "Kitura-TemplateEngine::KituraTemplateEngine";
       };
       "OBJ_4" = {
          isa = "XCBuildConfiguration";
@@ -2721,65 +2718,32 @@
       };
       "OBJ_400" = {
          isa = "PBXTargetDependency";
-         target = "SSLService::SSLService";
+         target = "Kitura-net::KituraNet";
       };
       "OBJ_401" = {
          isa = "PBXTargetDependency";
-         target = "Socket::Socket";
+         target = "SSLService::SSLService";
       };
       "OBJ_402" = {
          isa = "PBXTargetDependency";
-         target = "LoggerAPI::LoggerAPI";
+         target = "Socket::Socket";
       };
       "OBJ_403" = {
          isa = "PBXTargetDependency";
-         target = "Kitura-net::CHTTPParser";
+         target = "LoggerAPI::LoggerAPI";
       };
       "OBJ_404" = {
+         isa = "PBXTargetDependency";
+         target = "Kitura-net::CHTTPParser";
+      };
+      "OBJ_405" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_405",
-            "OBJ_406"
+            "OBJ_406",
+            "OBJ_407"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_405" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "KituraApp.xcodeproj/Cryptor_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "Cryptor";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "Cryptor";
-         };
-         name = "Debug";
       };
       "OBJ_406" = {
          isa = "XCBuildConfiguration";
@@ -2816,12 +2780,48 @@
             SWIFT_VERSION = "4.2";
             TARGET_NAME = "Cryptor";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_407" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "KituraApp.xcodeproj/Cryptor_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "Cryptor";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "Cryptor";
+         };
+         name = "Release";
+      };
+      "OBJ_408" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_408",
             "OBJ_409",
             "OBJ_410",
             "OBJ_411",
@@ -2830,16 +2830,13 @@
             "OBJ_414",
             "OBJ_415",
             "OBJ_416",
-            "OBJ_417"
+            "OBJ_417",
+            "OBJ_418"
          );
-      };
-      "OBJ_408" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_64";
       };
       "OBJ_409" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_65";
+         fileRef = "OBJ_64";
       };
       "OBJ_41" = {
          isa = "PBXFileReference";
@@ -2848,37 +2845,41 @@
       };
       "OBJ_410" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_66";
+         fileRef = "OBJ_65";
       };
       "OBJ_411" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_67";
+         fileRef = "OBJ_66";
       };
       "OBJ_412" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_68";
+         fileRef = "OBJ_67";
       };
       "OBJ_413" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_69";
+         fileRef = "OBJ_68";
       };
       "OBJ_414" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_70";
+         fileRef = "OBJ_69";
       };
       "OBJ_415" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_71";
+         fileRef = "OBJ_70";
       };
       "OBJ_416" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_72";
+         fileRef = "OBJ_71";
       };
       "OBJ_417" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_73";
+         fileRef = "OBJ_72";
       };
       "OBJ_418" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_73";
+      };
+      "OBJ_419" = {
          isa = "PBXFrameworksBuildPhase";
          files = (
          );
@@ -2888,32 +2889,14 @@
          path = "MultiTypeSafeCredentials.swift";
          sourceTree = "<group>";
       };
-      "OBJ_420" = {
+      "OBJ_421" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_421",
-            "OBJ_422"
+            "OBJ_422",
+            "OBJ_423"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_421" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4.2",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.2";
-         };
-         name = "Debug";
       };
       "OBJ_422" = {
          isa = "XCBuildConfiguration";
@@ -2931,65 +2914,44 @@
             );
             SWIFT_VERSION = "4.2";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_423" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_424"
-         );
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4.2",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.2";
+         };
+         name = "Release";
       };
       "OBJ_424" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_425"
+         );
+      };
+      "OBJ_425" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_74";
       };
-      "OBJ_425" = {
+      "OBJ_426" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_426",
-            "OBJ_427"
+            "OBJ_427",
+            "OBJ_428"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_426" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CHTTPParser/include"
-            );
-            INFOPLIST_FILE = "KituraApp.xcodeproj/Kitura_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "Kitura";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.0";
-            TARGET_NAME = "Kitura";
-         };
-         name = "Debug";
       };
       "OBJ_427" = {
          isa = "XCBuildConfiguration";
@@ -3028,12 +2990,50 @@
             SWIFT_VERSION = "4.0";
             TARGET_NAME = "Kitura";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_428" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CHTTPParser/include"
+            );
+            INFOPLIST_FILE = "KituraApp.xcodeproj/Kitura_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "Kitura";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "Kitura";
+         };
+         name = "Release";
+      };
+      "OBJ_429" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_429",
             "OBJ_430",
             "OBJ_431",
             "OBJ_432",
@@ -3083,12 +3083,9 @@
             "OBJ_476",
             "OBJ_477",
             "OBJ_478",
-            "OBJ_479"
+            "OBJ_479",
+            "OBJ_480"
          );
-      };
-      "OBJ_429" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_77";
       };
       "OBJ_43" = {
          isa = "PBXFileReference";
@@ -3097,43 +3094,43 @@
       };
       "OBJ_430" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_78";
+         fileRef = "OBJ_77";
       };
       "OBJ_431" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_79";
+         fileRef = "OBJ_78";
       };
       "OBJ_432" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_80";
+         fileRef = "OBJ_79";
       };
       "OBJ_433" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_81";
+         fileRef = "OBJ_80";
       };
       "OBJ_434" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_82";
+         fileRef = "OBJ_81";
       };
       "OBJ_435" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_83";
+         fileRef = "OBJ_82";
       };
       "OBJ_436" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_84";
+         fileRef = "OBJ_83";
       };
       "OBJ_437" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_85";
+         fileRef = "OBJ_84";
       };
       "OBJ_438" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_86";
+         fileRef = "OBJ_85";
       };
       "OBJ_439" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_87";
+         fileRef = "OBJ_86";
       };
       "OBJ_44" = {
          isa = "PBXFileReference";
@@ -3142,43 +3139,43 @@
       };
       "OBJ_440" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_88";
+         fileRef = "OBJ_87";
       };
       "OBJ_441" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_89";
+         fileRef = "OBJ_88";
       };
       "OBJ_442" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_90";
+         fileRef = "OBJ_89";
       };
       "OBJ_443" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_91";
+         fileRef = "OBJ_90";
       };
       "OBJ_444" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_92";
+         fileRef = "OBJ_91";
       };
       "OBJ_445" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_93";
+         fileRef = "OBJ_92";
       };
       "OBJ_446" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_94";
+         fileRef = "OBJ_93";
       };
       "OBJ_447" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_95";
+         fileRef = "OBJ_94";
       };
       "OBJ_448" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_96";
+         fileRef = "OBJ_95";
       };
       "OBJ_449" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_97";
+         fileRef = "OBJ_96";
       };
       "OBJ_45" = {
          isa = "PBXFileReference";
@@ -3187,43 +3184,43 @@
       };
       "OBJ_450" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_98";
+         fileRef = "OBJ_97";
       };
       "OBJ_451" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_99";
+         fileRef = "OBJ_98";
       };
       "OBJ_452" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_100";
+         fileRef = "OBJ_99";
       };
       "OBJ_453" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_101";
+         fileRef = "OBJ_100";
       };
       "OBJ_454" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_102";
+         fileRef = "OBJ_101";
       };
       "OBJ_455" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_103";
+         fileRef = "OBJ_102";
       };
       "OBJ_456" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_104";
+         fileRef = "OBJ_103";
       };
       "OBJ_457" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_105";
+         fileRef = "OBJ_104";
       };
       "OBJ_458" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_106";
+         fileRef = "OBJ_105";
       };
       "OBJ_459" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_107";
+         fileRef = "OBJ_106";
       };
       "OBJ_46" = {
          isa = "PBXFileReference";
@@ -3232,43 +3229,43 @@
       };
       "OBJ_460" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_108";
+         fileRef = "OBJ_107";
       };
       "OBJ_461" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_109";
+         fileRef = "OBJ_108";
       };
       "OBJ_462" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_111";
+         fileRef = "OBJ_109";
       };
       "OBJ_463" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_112";
+         fileRef = "OBJ_111";
       };
       "OBJ_464" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_113";
+         fileRef = "OBJ_112";
       };
       "OBJ_465" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_114";
+         fileRef = "OBJ_113";
       };
       "OBJ_466" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_115";
+         fileRef = "OBJ_114";
       };
       "OBJ_467" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_116";
+         fileRef = "OBJ_115";
       };
       "OBJ_468" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_117";
+         fileRef = "OBJ_116";
       };
       "OBJ_469" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_118";
+         fileRef = "OBJ_117";
       };
       "OBJ_47" = {
          isa = "PBXFileReference";
@@ -3279,43 +3276,43 @@
       };
       "OBJ_470" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_119";
+         fileRef = "OBJ_118";
       };
       "OBJ_471" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_121";
+         fileRef = "OBJ_119";
       };
       "OBJ_472" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_122";
+         fileRef = "OBJ_121";
       };
       "OBJ_473" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_124";
+         fileRef = "OBJ_122";
       };
       "OBJ_474" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_125";
+         fileRef = "OBJ_124";
       };
       "OBJ_475" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_126";
+         fileRef = "OBJ_125";
       };
       "OBJ_476" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_127";
+         fileRef = "OBJ_126";
       };
       "OBJ_477" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_128";
+         fileRef = "OBJ_127";
       };
       "OBJ_478" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_129";
+         fileRef = "OBJ_128";
       };
       "OBJ_479" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_130";
+         fileRef = "OBJ_129";
       };
       "OBJ_48" = {
          isa = "PBXGroup";
@@ -3328,53 +3325,53 @@
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_480" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_130";
+      };
+      "OBJ_481" = {
          isa = "PBXFrameworksBuildPhase";
          files = (
-            "OBJ_481",
             "OBJ_482",
             "OBJ_483",
             "OBJ_484",
             "OBJ_485",
             "OBJ_486",
             "OBJ_487",
-            "OBJ_488"
+            "OBJ_488",
+            "OBJ_489"
          );
-      };
-      "OBJ_481" = {
-         isa = "PBXBuildFile";
-         fileRef = "TypeDecoder::TypeDecoder::Product";
       };
       "OBJ_482" = {
          isa = "PBXBuildFile";
-         fileRef = "KituraContracts::KituraContracts::Product";
+         fileRef = "TypeDecoder::TypeDecoder::Product";
       };
       "OBJ_483" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-TemplateEngine::KituraTemplateEngine::Product";
+         fileRef = "KituraContracts::KituraContracts::Product";
       };
       "OBJ_484" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-net::KituraNet::Product";
+         fileRef = "Kitura-TemplateEngine::KituraTemplateEngine::Product";
       };
       "OBJ_485" = {
          isa = "PBXBuildFile";
-         fileRef = "SSLService::SSLService::Product";
+         fileRef = "Kitura-net::KituraNet::Product";
       };
       "OBJ_486" = {
          isa = "PBXBuildFile";
-         fileRef = "Socket::Socket::Product";
+         fileRef = "SSLService::SSLService::Product";
       };
       "OBJ_487" = {
          isa = "PBXBuildFile";
-         fileRef = "LoggerAPI::LoggerAPI::Product";
+         fileRef = "Socket::Socket::Product";
       };
       "OBJ_488" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-net::CHTTPParser::Product";
+         fileRef = "LoggerAPI::LoggerAPI::Product";
       };
       "OBJ_489" = {
-         isa = "PBXTargetDependency";
-         target = "TypeDecoder::TypeDecoder";
+         isa = "PBXBuildFile";
+         fileRef = "Kitura-net::CHTTPParser::Product";
       };
       "OBJ_49" = {
          isa = "PBXGroup";
@@ -3397,58 +3394,44 @@
       };
       "OBJ_490" = {
          isa = "PBXTargetDependency";
-         target = "KituraContracts::KituraContracts";
+         target = "TypeDecoder::TypeDecoder";
       };
       "OBJ_491" = {
          isa = "PBXTargetDependency";
-         target = "Kitura-TemplateEngine::KituraTemplateEngine";
+         target = "KituraContracts::KituraContracts";
       };
       "OBJ_492" = {
          isa = "PBXTargetDependency";
-         target = "Kitura-net::KituraNet";
+         target = "Kitura-TemplateEngine::KituraTemplateEngine";
       };
       "OBJ_493" = {
          isa = "PBXTargetDependency";
-         target = "SSLService::SSLService";
+         target = "Kitura-net::KituraNet";
       };
       "OBJ_494" = {
          isa = "PBXTargetDependency";
-         target = "Socket::Socket";
+         target = "SSLService::SSLService";
       };
       "OBJ_495" = {
          isa = "PBXTargetDependency";
-         target = "LoggerAPI::LoggerAPI";
+         target = "Socket::Socket";
       };
       "OBJ_496" = {
          isa = "PBXTargetDependency";
+         target = "LoggerAPI::LoggerAPI";
+      };
+      "OBJ_497" = {
+         isa = "PBXTargetDependency";
          target = "Kitura-net::CHTTPParser";
       };
-      "OBJ_498" = {
+      "OBJ_499" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_499",
-            "OBJ_500"
+            "OBJ_500",
+            "OBJ_501"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_499" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.0";
-         };
-         name = "Debug";
       };
       "OBJ_5" = {
          isa = "PBXGroup";
@@ -3457,7 +3440,7 @@
             "OBJ_7",
             "OBJ_25",
             "OBJ_28",
-            "OBJ_219"
+            "OBJ_220"
          );
          path = "";
          sourceTree = "<group>";
@@ -3483,28 +3466,9 @@
             );
             SWIFT_VERSION = "4.0";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_501" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_502"
-         );
-      };
-      "OBJ_502" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_36";
-      };
-      "OBJ_504" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_505",
-            "OBJ_506"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_505" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             LD = "/usr/bin/true";
@@ -3520,7 +3484,26 @@
             );
             SWIFT_VERSION = "4.0";
          };
-         name = "Debug";
+         name = "Release";
+      };
+      "OBJ_502" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_503"
+         );
+      };
+      "OBJ_503" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_36";
+      };
+      "OBJ_505" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_506",
+            "OBJ_507"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
       };
       "OBJ_506" = {
          isa = "XCBuildConfiguration";
@@ -3538,33 +3521,9 @@
             );
             SWIFT_VERSION = "4.0";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_507" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_508"
-         );
-      };
-      "OBJ_508" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_47";
-      };
-      "OBJ_51" = {
-         isa = "PBXFileReference";
-         path = "CookieManagement.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_510" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_511",
-            "OBJ_512"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_511" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             LD = "/usr/bin/true";
@@ -3580,7 +3539,31 @@
             );
             SWIFT_VERSION = "4.0";
          };
-         name = "Debug";
+         name = "Release";
+      };
+      "OBJ_508" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_509"
+         );
+      };
+      "OBJ_509" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_47";
+      };
+      "OBJ_51" = {
+         isa = "PBXFileReference";
+         path = "CookieManagement.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_511" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_512",
+            "OBJ_513"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
       };
       "OBJ_512" = {
          isa = "XCBuildConfiguration";
@@ -3598,28 +3581,9 @@
             );
             SWIFT_VERSION = "4.0";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_513" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_514"
-         );
-      };
-      "OBJ_514" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_61";
-      };
-      "OBJ_516" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_517",
-            "OBJ_518"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_517" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             LD = "/usr/bin/true";
@@ -3635,7 +3599,26 @@
             );
             SWIFT_VERSION = "4.0";
          };
-         name = "Debug";
+         name = "Release";
+      };
+      "OBJ_514" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_515"
+         );
+      };
+      "OBJ_515" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_61";
+      };
+      "OBJ_517" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_518",
+            "OBJ_519"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
       };
       "OBJ_518" = {
          isa = "XCBuildConfiguration";
@@ -3653,13 +3636,25 @@
             );
             SWIFT_VERSION = "4.0";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_519" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_520"
-         );
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.0";
+         };
+         name = "Release";
       };
       "OBJ_52" = {
          isa = "PBXFileReference";
@@ -3667,35 +3662,23 @@
          sourceTree = "<group>";
       };
       "OBJ_520" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_521"
+         );
+      };
+      "OBJ_521" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_153";
       };
-      "OBJ_522" = {
+      "OBJ_523" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_523",
-            "OBJ_524"
+            "OBJ_524",
+            "OBJ_525"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_523" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4.2",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.2";
-         };
-         name = "Debug";
       };
       "OBJ_524" = {
          isa = "XCBuildConfiguration";
@@ -3713,63 +3696,44 @@
             );
             SWIFT_VERSION = "4.2";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_525" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_526"
-         );
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4.2",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.2";
+         };
+         name = "Release";
       };
       "OBJ_526" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_527"
+         );
+      };
+      "OBJ_527" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_204";
       };
-      "OBJ_528" = {
+      "OBJ_529" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_529",
-            "OBJ_530"
+            "OBJ_530",
+            "OBJ_531"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_529" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CHTTPParser/include"
-            );
-            INFOPLIST_FILE = "KituraApp.xcodeproj/KituraApp_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.0";
-            TARGET_NAME = "KituraApp";
-         };
-         name = "Debug";
       };
       "OBJ_53" = {
          isa = "PBXFileReference";
@@ -3811,22 +3775,58 @@
             SWIFT_VERSION = "4.0";
             TARGET_NAME = "KituraApp";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_531" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_532"
-         );
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CHTTPParser/include"
+            );
+            INFOPLIST_FILE = "KituraApp.xcodeproj/KituraApp_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "KituraApp";
+         };
+         name = "Release";
       };
       "OBJ_532" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_9";
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_533"
+         );
       };
       "OBJ_533" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_24";
+      };
+      "OBJ_534" = {
          isa = "PBXFrameworksBuildPhase";
          files = (
-            "OBJ_534",
             "OBJ_535",
             "OBJ_536",
             "OBJ_537",
@@ -3839,32 +3839,29 @@
             "OBJ_544",
             "OBJ_545",
             "OBJ_546",
-            "OBJ_547"
+            "OBJ_547",
+            "OBJ_548"
          );
-      };
-      "OBJ_534" = {
-         isa = "PBXBuildFile";
-         fileRef = "KituraApp::Application::Product";
       };
       "OBJ_535" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-CredentialsHTTP::CredentialsHTTP::Product";
+         fileRef = "KituraApp::Application::Product";
       };
       "OBJ_536" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-Credentials::Credentials::Product";
+         fileRef = "Kitura-CredentialsHTTP::CredentialsHTTP::Product";
       };
       "OBJ_537" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-Session::KituraSession::Product";
+         fileRef = "Kitura-Credentials::Credentials::Product";
       };
       "OBJ_538" = {
          isa = "PBXBuildFile";
-         fileRef = "Cryptor::Cryptor::Product";
+         fileRef = "Kitura-Session::KituraSession::Product";
       };
       "OBJ_539" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura::Kitura::Product";
+         fileRef = "Cryptor::Cryptor::Product";
       };
       "OBJ_54" = {
          isa = "PBXFileReference";
@@ -3873,43 +3870,43 @@
       };
       "OBJ_540" = {
          isa = "PBXBuildFile";
-         fileRef = "TypeDecoder::TypeDecoder::Product";
+         fileRef = "Kitura::Kitura::Product";
       };
       "OBJ_541" = {
          isa = "PBXBuildFile";
-         fileRef = "KituraContracts::KituraContracts::Product";
+         fileRef = "TypeDecoder::TypeDecoder::Product";
       };
       "OBJ_542" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-TemplateEngine::KituraTemplateEngine::Product";
+         fileRef = "KituraContracts::KituraContracts::Product";
       };
       "OBJ_543" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-net::KituraNet::Product";
+         fileRef = "Kitura-TemplateEngine::KituraTemplateEngine::Product";
       };
       "OBJ_544" = {
          isa = "PBXBuildFile";
-         fileRef = "SSLService::SSLService::Product";
+         fileRef = "Kitura-net::KituraNet::Product";
       };
       "OBJ_545" = {
          isa = "PBXBuildFile";
-         fileRef = "Socket::Socket::Product";
+         fileRef = "SSLService::SSLService::Product";
       };
       "OBJ_546" = {
          isa = "PBXBuildFile";
-         fileRef = "LoggerAPI::LoggerAPI::Product";
+         fileRef = "Socket::Socket::Product";
       };
       "OBJ_547" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-net::CHTTPParser::Product";
+         fileRef = "LoggerAPI::LoggerAPI::Product";
       };
       "OBJ_548" = {
-         isa = "PBXTargetDependency";
-         target = "KituraApp::Application";
+         isa = "PBXBuildFile";
+         fileRef = "Kitura-net::CHTTPParser::Product";
       };
       "OBJ_549" = {
          isa = "PBXTargetDependency";
-         target = "Kitura-CredentialsHTTP::CredentialsHTTP";
+         target = "KituraApp::Application";
       };
       "OBJ_55" = {
          isa = "PBXFileReference";
@@ -3918,43 +3915,43 @@
       };
       "OBJ_550" = {
          isa = "PBXTargetDependency";
-         target = "Kitura-Credentials::Credentials";
+         target = "Kitura-CredentialsHTTP::CredentialsHTTP";
       };
       "OBJ_551" = {
          isa = "PBXTargetDependency";
-         target = "Kitura-Session::KituraSession";
+         target = "Kitura-Credentials::Credentials";
       };
       "OBJ_552" = {
          isa = "PBXTargetDependency";
-         target = "Cryptor::Cryptor";
+         target = "Kitura-Session::KituraSession";
       };
       "OBJ_553" = {
          isa = "PBXTargetDependency";
-         target = "Kitura::Kitura";
+         target = "Cryptor::Cryptor";
       };
       "OBJ_554" = {
          isa = "PBXTargetDependency";
-         target = "TypeDecoder::TypeDecoder";
+         target = "Kitura::Kitura";
       };
       "OBJ_555" = {
          isa = "PBXTargetDependency";
-         target = "KituraContracts::KituraContracts";
+         target = "TypeDecoder::TypeDecoder";
       };
       "OBJ_556" = {
          isa = "PBXTargetDependency";
-         target = "Kitura-TemplateEngine::KituraTemplateEngine";
+         target = "KituraContracts::KituraContracts";
       };
       "OBJ_557" = {
          isa = "PBXTargetDependency";
-         target = "Kitura-net::KituraNet";
+         target = "Kitura-TemplateEngine::KituraTemplateEngine";
       };
       "OBJ_558" = {
          isa = "PBXTargetDependency";
-         target = "SSLService::SSLService";
+         target = "Kitura-net::KituraNet";
       };
       "OBJ_559" = {
          isa = "PBXTargetDependency";
-         target = "Socket::Socket";
+         target = "SSLService::SSLService";
       };
       "OBJ_56" = {
          isa = "PBXFileReference";
@@ -3963,38 +3960,24 @@
       };
       "OBJ_560" = {
          isa = "PBXTargetDependency";
-         target = "LoggerAPI::LoggerAPI";
+         target = "Socket::Socket";
       };
       "OBJ_561" = {
          isa = "PBXTargetDependency";
+         target = "LoggerAPI::LoggerAPI";
+      };
+      "OBJ_562" = {
+         isa = "PBXTargetDependency";
          target = "Kitura-net::CHTTPParser";
       };
-      "OBJ_563" = {
+      "OBJ_564" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_564",
-            "OBJ_565"
+            "OBJ_565",
+            "OBJ_566"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_564" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.0";
-         };
-         name = "Debug";
       };
       "OBJ_565" = {
          isa = "XCBuildConfiguration";
@@ -4012,26 +3995,35 @@
             );
             SWIFT_VERSION = "4.0";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_566" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_567"
-         );
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.0";
+         };
+         name = "Release";
       };
       "OBJ_567" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_568"
+         );
+      };
+      "OBJ_568" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_6";
-      };
-      "OBJ_569" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_570",
-            "OBJ_571"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
       };
       "OBJ_57" = {
          isa = "PBXFileReference";
@@ -4039,66 +4031,38 @@
          sourceTree = "<group>";
       };
       "OBJ_570" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-         };
-         name = "Debug";
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_571",
+            "OBJ_572"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
       };
       "OBJ_571" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_572" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Release";
+      };
+      "OBJ_573" = {
          isa = "PBXTargetDependency";
          target = "KituraApp::ApplicationTests";
       };
-      "OBJ_573" = {
+      "OBJ_574" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_574",
-            "OBJ_575"
+            "OBJ_575",
+            "OBJ_576"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_574" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "KituraApp.xcodeproj/KituraContracts_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "KituraContracts";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.0";
-            TARGET_NAME = "KituraContracts";
-         };
-         name = "Debug";
       };
       "OBJ_575" = {
          isa = "XCBuildConfiguration";
@@ -4135,12 +4099,48 @@
             SWIFT_VERSION = "4.0";
             TARGET_NAME = "KituraContracts";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_576" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "KituraApp.xcodeproj/KituraContracts_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "KituraContracts";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "KituraContracts";
+         };
+         name = "Release";
+      };
+      "OBJ_577" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_577",
             "OBJ_578",
             "OBJ_579",
             "OBJ_580",
@@ -4148,20 +4148,17 @@
             "OBJ_582",
             "OBJ_583",
             "OBJ_584",
-            "OBJ_585"
+            "OBJ_585",
+            "OBJ_586"
          );
-      };
-      "OBJ_577" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_139";
       };
       "OBJ_578" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_140";
+         fileRef = "OBJ_139";
       };
       "OBJ_579" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_141";
+         fileRef = "OBJ_140";
       };
       "OBJ_58" = {
          isa = "PBXFileReference";
@@ -4170,39 +4167,43 @@
       };
       "OBJ_580" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_142";
+         fileRef = "OBJ_141";
       };
       "OBJ_581" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_144";
+         fileRef = "OBJ_142";
       };
       "OBJ_582" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_145";
+         fileRef = "OBJ_144";
       };
       "OBJ_583" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_146";
+         fileRef = "OBJ_145";
       };
       "OBJ_584" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_147";
+         fileRef = "OBJ_146";
       };
       "OBJ_585" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_148";
+         fileRef = "OBJ_147";
       };
       "OBJ_586" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_587"
-         );
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_148";
       };
       "OBJ_587" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_588"
+         );
+      };
+      "OBJ_588" = {
          isa = "PBXBuildFile";
          fileRef = "LoggerAPI::LoggerAPI::Product";
       };
-      "OBJ_588" = {
+      "OBJ_589" = {
          isa = "PBXTargetDependency";
          target = "LoggerAPI::LoggerAPI";
       };
@@ -4211,32 +4212,14 @@
          path = "StoreError.swift";
          sourceTree = "<group>";
       };
-      "OBJ_590" = {
+      "OBJ_591" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_591",
-            "OBJ_592"
+            "OBJ_592",
+            "OBJ_593"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_591" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.0";
-         };
-         name = "Debug";
       };
       "OBJ_592" = {
          isa = "XCBuildConfiguration";
@@ -4254,65 +4237,44 @@
             );
             SWIFT_VERSION = "4.0";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_593" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_594"
-         );
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.0";
+         };
+         name = "Release";
       };
       "OBJ_594" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_595"
+         );
+      };
+      "OBJ_595" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_149";
       };
-      "OBJ_595" = {
+      "OBJ_596" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_596",
-            "OBJ_597"
+            "OBJ_597",
+            "OBJ_598"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_596" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CHTTPParser/include"
-            );
-            INFOPLIST_FILE = "KituraApp.xcodeproj/KituraNet_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "KituraNet";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "KituraNet";
-         };
-         name = "Debug";
       };
       "OBJ_597" = {
          isa = "XCBuildConfiguration";
@@ -4351,12 +4313,50 @@
             SWIFT_VERSION = "4.2";
             TARGET_NAME = "KituraNet";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_598" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CHTTPParser/include"
+            );
+            INFOPLIST_FILE = "KituraApp.xcodeproj/KituraNet_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "KituraNet";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "KituraNet";
+         };
+         name = "Release";
+      };
+      "OBJ_599" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_599",
             "OBJ_600",
             "OBJ_601",
             "OBJ_602",
@@ -4391,12 +4391,9 @@
             "OBJ_631",
             "OBJ_632",
             "OBJ_633",
-            "OBJ_634"
+            "OBJ_634",
+            "OBJ_635"
          );
-      };
-      "OBJ_599" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_157";
       };
       "OBJ_6" = {
          isa = "PBXFileReference";
@@ -4411,43 +4408,43 @@
       };
       "OBJ_600" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_158";
+         fileRef = "OBJ_164";
       };
       "OBJ_601" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_159";
+         fileRef = "OBJ_165";
       };
       "OBJ_602" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_160";
+         fileRef = "OBJ_166";
       };
       "OBJ_603" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_161";
+         fileRef = "OBJ_167";
       };
       "OBJ_604" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_162";
+         fileRef = "OBJ_168";
       };
       "OBJ_605" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_164";
+         fileRef = "OBJ_169";
       };
       "OBJ_606" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_165";
+         fileRef = "OBJ_171";
       };
       "OBJ_607" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_166";
+         fileRef = "OBJ_172";
       };
       "OBJ_608" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_167";
+         fileRef = "OBJ_173";
       };
       "OBJ_609" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_168";
+         fileRef = "OBJ_174";
       };
       "OBJ_61" = {
          isa = "PBXFileReference";
@@ -4458,43 +4455,43 @@
       };
       "OBJ_610" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_169";
+         fileRef = "OBJ_175";
       };
       "OBJ_611" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_171";
+         fileRef = "OBJ_176";
       };
       "OBJ_612" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_172";
+         fileRef = "OBJ_178";
       };
       "OBJ_613" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_173";
+         fileRef = "OBJ_179";
       };
       "OBJ_614" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_174";
+         fileRef = "OBJ_180";
       };
       "OBJ_615" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_175";
+         fileRef = "OBJ_181";
       };
       "OBJ_616" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_176";
+         fileRef = "OBJ_182";
       };
       "OBJ_617" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_178";
+         fileRef = "OBJ_183";
       };
       "OBJ_618" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_179";
+         fileRef = "OBJ_185";
       };
       "OBJ_619" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_180";
+         fileRef = "OBJ_186";
       };
       "OBJ_62" = {
          isa = "PBXGroup";
@@ -4508,43 +4505,43 @@
       };
       "OBJ_620" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_181";
+         fileRef = "OBJ_187";
       };
       "OBJ_621" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_182";
+         fileRef = "OBJ_188";
       };
       "OBJ_622" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_183";
+         fileRef = "OBJ_189";
       };
       "OBJ_623" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_184";
+         fileRef = "OBJ_190";
       };
       "OBJ_624" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_185";
+         fileRef = "OBJ_191";
       };
       "OBJ_625" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_186";
+         fileRef = "OBJ_192";
       };
       "OBJ_626" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_187";
+         fileRef = "OBJ_193";
       };
       "OBJ_627" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_188";
+         fileRef = "OBJ_194";
       };
       "OBJ_628" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_190";
+         fileRef = "OBJ_195";
       };
       "OBJ_629" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_191";
+         fileRef = "OBJ_197";
       };
       "OBJ_63" = {
          isa = "PBXGroup";
@@ -4566,48 +4563,48 @@
       };
       "OBJ_630" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_192";
+         fileRef = "OBJ_198";
       };
       "OBJ_631" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_193";
+         fileRef = "OBJ_199";
       };
       "OBJ_632" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_194";
+         fileRef = "OBJ_200";
       };
       "OBJ_633" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_195";
+         fileRef = "OBJ_201";
       };
       "OBJ_634" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_196";
+         fileRef = "OBJ_202";
       };
       "OBJ_635" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_636",
-            "OBJ_637",
-            "OBJ_638",
-            "OBJ_639"
-         );
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_203";
       };
       "OBJ_636" = {
-         isa = "PBXBuildFile";
-         fileRef = "SSLService::SSLService::Product";
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_637",
+            "OBJ_638",
+            "OBJ_639",
+            "OBJ_640"
+         );
       };
       "OBJ_637" = {
          isa = "PBXBuildFile";
-         fileRef = "Socket::Socket::Product";
+         fileRef = "SSLService::SSLService::Product";
       };
       "OBJ_638" = {
          isa = "PBXBuildFile";
-         fileRef = "LoggerAPI::LoggerAPI::Product";
+         fileRef = "Socket::Socket::Product";
       };
       "OBJ_639" = {
          isa = "PBXBuildFile";
-         fileRef = "Kitura-net::CHTTPParser::Product";
+         fileRef = "LoggerAPI::LoggerAPI::Product";
       };
       "OBJ_64" = {
          isa = "PBXFileReference";
@@ -4615,47 +4612,33 @@
          sourceTree = "<group>";
       };
       "OBJ_640" = {
-         isa = "PBXTargetDependency";
-         target = "SSLService::SSLService";
+         isa = "PBXBuildFile";
+         fileRef = "Kitura-net::CHTTPParser::Product";
       };
       "OBJ_641" = {
          isa = "PBXTargetDependency";
-         target = "Socket::Socket";
+         target = "SSLService::SSLService";
       };
       "OBJ_642" = {
          isa = "PBXTargetDependency";
-         target = "LoggerAPI::LoggerAPI";
+         target = "Socket::Socket";
       };
       "OBJ_643" = {
          isa = "PBXTargetDependency";
+         target = "LoggerAPI::LoggerAPI";
+      };
+      "OBJ_644" = {
+         isa = "PBXTargetDependency";
          target = "Kitura-net::CHTTPParser";
       };
-      "OBJ_645" = {
+      "OBJ_646" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_646",
-            "OBJ_647"
+            "OBJ_647",
+            "OBJ_648"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_646" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.0";
-         };
-         name = "Debug";
       };
       "OBJ_647" = {
          isa = "XCBuildConfiguration";
@@ -4673,17 +4656,31 @@
             );
             SWIFT_VERSION = "4.0";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_648" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_649"
-         );
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.0";
+         };
+         name = "Release";
       };
       "OBJ_649" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_131";
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_650"
+         );
       };
       "OBJ_65" = {
          isa = "PBXFileReference";
@@ -4691,52 +4688,17 @@
          sourceTree = "<group>";
       };
       "OBJ_650" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_131";
+      };
+      "OBJ_651" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_651",
-            "OBJ_652"
+            "OBJ_652",
+            "OBJ_653"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_651" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CHTTPParser/include"
-            );
-            INFOPLIST_FILE = "KituraApp.xcodeproj/KituraSession_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "KituraSession";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.0";
-            TARGET_NAME = "KituraSession";
-         };
-         name = "Debug";
       };
       "OBJ_652" = {
          isa = "XCBuildConfiguration";
@@ -4775,188 +4737,9 @@
             SWIFT_VERSION = "4.0";
             TARGET_NAME = "KituraSession";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_653" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_654",
-            "OBJ_655",
-            "OBJ_656",
-            "OBJ_657",
-            "OBJ_658",
-            "OBJ_659",
-            "OBJ_660",
-            "OBJ_661",
-            "OBJ_662",
-            "OBJ_663",
-            "OBJ_664"
-         );
-      };
-      "OBJ_654" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_50";
-      };
-      "OBJ_655" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_51";
-      };
-      "OBJ_656" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_52";
-      };
-      "OBJ_657" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_53";
-      };
-      "OBJ_658" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_54";
-      };
-      "OBJ_659" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_55";
-      };
-      "OBJ_66" = {
-         isa = "PBXFileReference";
-         path = "Digest.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_660" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_56";
-      };
-      "OBJ_661" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_57";
-      };
-      "OBJ_662" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_58";
-      };
-      "OBJ_663" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_59";
-      };
-      "OBJ_664" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_60";
-      };
-      "OBJ_665" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_666",
-            "OBJ_667",
-            "OBJ_668",
-            "OBJ_669",
-            "OBJ_670",
-            "OBJ_671",
-            "OBJ_672",
-            "OBJ_673",
-            "OBJ_674",
-            "OBJ_675"
-         );
-      };
-      "OBJ_666" = {
-         isa = "PBXBuildFile";
-         fileRef = "Cryptor::Cryptor::Product";
-      };
-      "OBJ_667" = {
-         isa = "PBXBuildFile";
-         fileRef = "Kitura::Kitura::Product";
-      };
-      "OBJ_668" = {
-         isa = "PBXBuildFile";
-         fileRef = "TypeDecoder::TypeDecoder::Product";
-      };
-      "OBJ_669" = {
-         isa = "PBXBuildFile";
-         fileRef = "KituraContracts::KituraContracts::Product";
-      };
-      "OBJ_67" = {
-         isa = "PBXFileReference";
-         path = "HMAC.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_670" = {
-         isa = "PBXBuildFile";
-         fileRef = "Kitura-TemplateEngine::KituraTemplateEngine::Product";
-      };
-      "OBJ_671" = {
-         isa = "PBXBuildFile";
-         fileRef = "Kitura-net::KituraNet::Product";
-      };
-      "OBJ_672" = {
-         isa = "PBXBuildFile";
-         fileRef = "SSLService::SSLService::Product";
-      };
-      "OBJ_673" = {
-         isa = "PBXBuildFile";
-         fileRef = "Socket::Socket::Product";
-      };
-      "OBJ_674" = {
-         isa = "PBXBuildFile";
-         fileRef = "LoggerAPI::LoggerAPI::Product";
-      };
-      "OBJ_675" = {
-         isa = "PBXBuildFile";
-         fileRef = "Kitura-net::CHTTPParser::Product";
-      };
-      "OBJ_676" = {
-         isa = "PBXTargetDependency";
-         target = "Cryptor::Cryptor";
-      };
-      "OBJ_677" = {
-         isa = "PBXTargetDependency";
-         target = "Kitura::Kitura";
-      };
-      "OBJ_678" = {
-         isa = "PBXTargetDependency";
-         target = "TypeDecoder::TypeDecoder";
-      };
-      "OBJ_679" = {
-         isa = "PBXTargetDependency";
-         target = "KituraContracts::KituraContracts";
-      };
-      "OBJ_68" = {
-         isa = "PBXFileReference";
-         path = "KeyDerivation.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_680" = {
-         isa = "PBXTargetDependency";
-         target = "Kitura-TemplateEngine::KituraTemplateEngine";
-      };
-      "OBJ_681" = {
-         isa = "PBXTargetDependency";
-         target = "Kitura-net::KituraNet";
-      };
-      "OBJ_682" = {
-         isa = "PBXTargetDependency";
-         target = "SSLService::SSLService";
-      };
-      "OBJ_683" = {
-         isa = "PBXTargetDependency";
-         target = "Socket::Socket";
-      };
-      "OBJ_684" = {
-         isa = "PBXTargetDependency";
-         target = "LoggerAPI::LoggerAPI";
-      };
-      "OBJ_685" = {
-         isa = "PBXTargetDependency";
-         target = "Kitura-net::CHTTPParser";
-      };
-      "OBJ_686" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_687",
-            "OBJ_688"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_687" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -4965,9 +4748,11 @@
                "$(PLATFORM_DIR)/Developer/Library/Frameworks"
             );
             HEADER_SEARCH_PATHS = (
-               "$(inherited)"
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git-8533818429397462884/Sources/CHTTPParser/include"
             );
-            INFOPLIST_FILE = "KituraApp.xcodeproj/KituraTemplateEngine_Info.plist";
+            INFOPLIST_FILE = "KituraApp.xcodeproj/KituraSession_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -4981,7 +4766,7 @@
             OTHER_SWIFT_FLAGS = (
                "$(inherited)"
             );
-            PRODUCT_BUNDLE_IDENTIFIER = "KituraTemplateEngine";
+            PRODUCT_BUNDLE_IDENTIFIER = "KituraSession";
             PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
             PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
             SKIP_INSTALL = "YES";
@@ -4989,9 +4774,188 @@
                "$(inherited)"
             );
             SWIFT_VERSION = "4.0";
-            TARGET_NAME = "KituraTemplateEngine";
+            TARGET_NAME = "KituraSession";
          };
-         name = "Debug";
+         name = "Release";
+      };
+      "OBJ_654" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_655",
+            "OBJ_656",
+            "OBJ_657",
+            "OBJ_658",
+            "OBJ_659",
+            "OBJ_660",
+            "OBJ_661",
+            "OBJ_662",
+            "OBJ_663",
+            "OBJ_664",
+            "OBJ_665"
+         );
+      };
+      "OBJ_655" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_50";
+      };
+      "OBJ_656" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_51";
+      };
+      "OBJ_657" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_52";
+      };
+      "OBJ_658" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_53";
+      };
+      "OBJ_659" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_54";
+      };
+      "OBJ_66" = {
+         isa = "PBXFileReference";
+         path = "Digest.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_660" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_55";
+      };
+      "OBJ_661" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_56";
+      };
+      "OBJ_662" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_57";
+      };
+      "OBJ_663" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_58";
+      };
+      "OBJ_664" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_59";
+      };
+      "OBJ_665" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_60";
+      };
+      "OBJ_666" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_667",
+            "OBJ_668",
+            "OBJ_669",
+            "OBJ_670",
+            "OBJ_671",
+            "OBJ_672",
+            "OBJ_673",
+            "OBJ_674",
+            "OBJ_675",
+            "OBJ_676"
+         );
+      };
+      "OBJ_667" = {
+         isa = "PBXBuildFile";
+         fileRef = "Cryptor::Cryptor::Product";
+      };
+      "OBJ_668" = {
+         isa = "PBXBuildFile";
+         fileRef = "Kitura::Kitura::Product";
+      };
+      "OBJ_669" = {
+         isa = "PBXBuildFile";
+         fileRef = "TypeDecoder::TypeDecoder::Product";
+      };
+      "OBJ_67" = {
+         isa = "PBXFileReference";
+         path = "HMAC.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_670" = {
+         isa = "PBXBuildFile";
+         fileRef = "KituraContracts::KituraContracts::Product";
+      };
+      "OBJ_671" = {
+         isa = "PBXBuildFile";
+         fileRef = "Kitura-TemplateEngine::KituraTemplateEngine::Product";
+      };
+      "OBJ_672" = {
+         isa = "PBXBuildFile";
+         fileRef = "Kitura-net::KituraNet::Product";
+      };
+      "OBJ_673" = {
+         isa = "PBXBuildFile";
+         fileRef = "SSLService::SSLService::Product";
+      };
+      "OBJ_674" = {
+         isa = "PBXBuildFile";
+         fileRef = "Socket::Socket::Product";
+      };
+      "OBJ_675" = {
+         isa = "PBXBuildFile";
+         fileRef = "LoggerAPI::LoggerAPI::Product";
+      };
+      "OBJ_676" = {
+         isa = "PBXBuildFile";
+         fileRef = "Kitura-net::CHTTPParser::Product";
+      };
+      "OBJ_677" = {
+         isa = "PBXTargetDependency";
+         target = "Cryptor::Cryptor";
+      };
+      "OBJ_678" = {
+         isa = "PBXTargetDependency";
+         target = "Kitura::Kitura";
+      };
+      "OBJ_679" = {
+         isa = "PBXTargetDependency";
+         target = "TypeDecoder::TypeDecoder";
+      };
+      "OBJ_68" = {
+         isa = "PBXFileReference";
+         path = "KeyDerivation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_680" = {
+         isa = "PBXTargetDependency";
+         target = "KituraContracts::KituraContracts";
+      };
+      "OBJ_681" = {
+         isa = "PBXTargetDependency";
+         target = "Kitura-TemplateEngine::KituraTemplateEngine";
+      };
+      "OBJ_682" = {
+         isa = "PBXTargetDependency";
+         target = "Kitura-net::KituraNet";
+      };
+      "OBJ_683" = {
+         isa = "PBXTargetDependency";
+         target = "SSLService::SSLService";
+      };
+      "OBJ_684" = {
+         isa = "PBXTargetDependency";
+         target = "Socket::Socket";
+      };
+      "OBJ_685" = {
+         isa = "PBXTargetDependency";
+         target = "LoggerAPI::LoggerAPI";
+      };
+      "OBJ_686" = {
+         isa = "PBXTargetDependency";
+         target = "Kitura-net::CHTTPParser";
+      };
+      "OBJ_687" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_688",
+            "OBJ_689"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
       };
       "OBJ_688" = {
          isa = "XCBuildConfiguration";
@@ -5028,38 +4992,9 @@
             SWIFT_VERSION = "4.0";
             TARGET_NAME = "KituraTemplateEngine";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_689" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_690"
-         );
-      };
-      "OBJ_69" = {
-         isa = "PBXFileReference";
-         path = "Random.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_690" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_152";
-      };
-      "OBJ_691" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-         );
-      };
-      "OBJ_692" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_693",
-            "OBJ_694"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_693" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -5070,7 +5005,7 @@
             HEADER_SEARCH_PATHS = (
                "$(inherited)"
             );
-            INFOPLIST_FILE = "KituraApp.xcodeproj/LoggerAPI_Info.plist";
+            INFOPLIST_FILE = "KituraApp.xcodeproj/KituraTemplateEngine_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -5084,7 +5019,7 @@
             OTHER_SWIFT_FLAGS = (
                "$(inherited)"
             );
-            PRODUCT_BUNDLE_IDENTIFIER = "LoggerAPI";
+            PRODUCT_BUNDLE_IDENTIFIER = "KituraTemplateEngine";
             PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
             PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
             SKIP_INSTALL = "YES";
@@ -5092,9 +5027,38 @@
                "$(inherited)"
             );
             SWIFT_VERSION = "4.0";
-            TARGET_NAME = "LoggerAPI";
+            TARGET_NAME = "KituraTemplateEngine";
          };
-         name = "Debug";
+         name = "Release";
+      };
+      "OBJ_69" = {
+         isa = "PBXFileReference";
+         path = "Random.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_690" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_691"
+         );
+      };
+      "OBJ_691" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_152";
+      };
+      "OBJ_692" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_693" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_694",
+            "OBJ_695"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
       };
       "OBJ_694" = {
          isa = "XCBuildConfiguration";
@@ -5131,37 +5095,65 @@
             SWIFT_VERSION = "4.0";
             TARGET_NAME = "LoggerAPI";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_695" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_696"
-         );
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "KituraApp.xcodeproj/LoggerAPI_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "LoggerAPI";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "LoggerAPI";
+         };
+         name = "Release";
       };
       "OBJ_696" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_217";
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_697"
+         );
       };
       "OBJ_697" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_218";
+      };
+      "OBJ_698" = {
          isa = "PBXFrameworksBuildPhase";
          files = (
          );
-      };
-      "OBJ_699" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_700",
-            "OBJ_701"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
       };
       "OBJ_7" = {
          isa = "PBXGroup";
          children = (
             "OBJ_8",
-            "OBJ_10"
+            "OBJ_23"
          );
          name = "Sources";
          path = "";
@@ -5173,22 +5165,13 @@
          sourceTree = "<group>";
       };
       "OBJ_700" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.0";
-         };
-         name = "Debug";
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_701",
+            "OBJ_702"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
       };
       "OBJ_701" = {
          isa = "XCBuildConfiguration";
@@ -5206,63 +5189,44 @@
             );
             SWIFT_VERSION = "4.0";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_702" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_703"
-         );
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.0";
+         };
+         name = "Release";
       };
       "OBJ_703" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_218";
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_704"
+         );
       };
       "OBJ_704" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_219";
+      };
+      "OBJ_705" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_705",
-            "OBJ_706"
+            "OBJ_706",
+            "OBJ_707"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_705" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "KituraApp.xcodeproj/SSLService_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "SSLService";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "SSLService";
-         };
-         name = "Debug";
       };
       "OBJ_706" = {
          isa = "XCBuildConfiguration";
@@ -5299,23 +5263,55 @@
             SWIFT_VERSION = "4.2";
             TARGET_NAME = "SSLService";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_707" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_708"
-         );
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "KituraApp.xcodeproj/SSLService_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "SSLService";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "SSLService";
+         };
+         name = "Release";
       };
       "OBJ_708" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_207";
-      };
-      "OBJ_709" = {
-         isa = "PBXFrameworksBuildPhase";
+         isa = "PBXSourcesBuildPhase";
          files = (
+            "OBJ_709",
             "OBJ_710"
          );
+      };
+      "OBJ_709" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_207";
       };
       "OBJ_71" = {
          isa = "PBXFileReference";
@@ -5324,22 +5320,32 @@
       };
       "OBJ_710" = {
          isa = "PBXBuildFile";
-         fileRef = "Socket::Socket::Product";
+         fileRef = "OBJ_208";
       };
       "OBJ_711" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_712"
+         );
+      };
+      "OBJ_712" = {
+         isa = "PBXBuildFile";
+         fileRef = "Socket::Socket::Product";
+      };
+      "OBJ_713" = {
          isa = "PBXTargetDependency";
          target = "Socket::Socket";
       };
-      "OBJ_713" = {
+      "OBJ_715" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_714",
-            "OBJ_715"
+            "OBJ_716",
+            "OBJ_717"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_714" = {
+      "OBJ_716" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             LD = "/usr/bin/true";
@@ -5357,7 +5363,7 @@
          };
          name = "Debug";
       };
-      "OBJ_715" = {
+      "OBJ_717" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             LD = "/usr/bin/true";
@@ -5375,61 +5381,15 @@
          };
          name = "Release";
       };
-      "OBJ_716" = {
+      "OBJ_718" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_717"
+            "OBJ_719"
          );
-      };
-      "OBJ_717" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_208";
-      };
-      "OBJ_718" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_719",
-            "OBJ_720"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
       };
       "OBJ_719" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "KituraApp.xcodeproj/Socket_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "Socket";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.0";
-            TARGET_NAME = "Socket";
-         };
-         name = "Debug";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_209";
       };
       "OBJ_72" = {
          isa = "PBXFileReference";
@@ -5437,6 +5397,52 @@
          sourceTree = "<group>";
       };
       "OBJ_720" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_721",
+            "OBJ_722"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_721" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "KituraApp.xcodeproj/Socket_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "Socket";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "Socket";
+         };
+         name = "Debug";
+      };
+      "OBJ_722" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -5473,75 +5479,39 @@
          };
          name = "Release";
       };
-      "OBJ_721" = {
+      "OBJ_723" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_722",
-            "OBJ_723",
-            "OBJ_724"
+            "OBJ_724",
+            "OBJ_725",
+            "OBJ_726"
          );
-      };
-      "OBJ_722" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_211";
-      };
-      "OBJ_723" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_212";
       };
       "OBJ_724" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_213";
+         fileRef = "OBJ_212";
       };
       "OBJ_725" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_213";
+      };
+      "OBJ_726" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_214";
+      };
+      "OBJ_727" = {
          isa = "PBXFrameworksBuildPhase";
          files = (
          );
       };
-      "OBJ_727" = {
+      "OBJ_729" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_728",
-            "OBJ_729"
+            "OBJ_730",
+            "OBJ_731"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_728" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_729" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.0";
-         };
-         name = "Release";
       };
       "OBJ_73" = {
          isa = "PBXFileReference";
@@ -5549,25 +5519,61 @@
          sourceTree = "<group>";
       };
       "OBJ_730" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_731"
-         );
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.0";
+         };
+         name = "Debug";
       };
       "OBJ_731" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_214";
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.0";
+         };
+         name = "Release";
       };
       "OBJ_732" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_733"
+         );
+      };
+      "OBJ_733" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_215";
+      };
+      "OBJ_734" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_733",
-            "OBJ_734"
+            "OBJ_735",
+            "OBJ_736"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_733" = {
+      "OBJ_735" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -5604,7 +5610,7 @@
          };
          name = "Debug";
       };
-      "OBJ_734" = {
+      "OBJ_736" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -5641,25 +5647,20 @@
          };
          name = "Release";
       };
-      "OBJ_735" = {
+      "OBJ_737" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_736",
-            "OBJ_737"
+            "OBJ_738",
+            "OBJ_739"
          );
       };
-      "OBJ_736" = {
+      "OBJ_738" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_134";
       };
-      "OBJ_737" = {
+      "OBJ_739" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_135";
-      };
-      "OBJ_738" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-         );
       };
       "OBJ_74" = {
          isa = "PBXFileReference";
@@ -5669,15 +5670,20 @@
          sourceTree = "<group>";
       };
       "OBJ_740" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_742" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_741",
-            "OBJ_742"
+            "OBJ_743",
+            "OBJ_744"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_741" = {
+      "OBJ_743" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             LD = "/usr/bin/true";
@@ -5695,7 +5701,7 @@
          };
          name = "Debug";
       };
-      "OBJ_742" = {
+      "OBJ_744" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             LD = "/usr/bin/true";
@@ -5713,13 +5719,13 @@
          };
          name = "Release";
       };
-      "OBJ_743" = {
+      "OBJ_745" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_744"
+            "OBJ_746"
          );
       };
-      "OBJ_744" = {
+      "OBJ_746" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_136";
       };
@@ -5795,10 +5801,15 @@
       "OBJ_8" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_9"
+            "OBJ_9",
+            "OBJ_10",
+            "OBJ_12",
+            "OBJ_14",
+            "OBJ_15",
+            "OBJ_17"
          );
-         name = "KituraApp";
-         path = "Sources/KituraApp";
+         name = "Application";
+         path = "Sources/Application";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_80" = {
@@ -5853,7 +5864,7 @@
       };
       "OBJ_9" = {
          isa = "PBXFileReference";
-         path = "main.swift";
+         path = "Application.swift";
          sourceTree = "<group>";
       };
       "OBJ_90" = {
@@ -5908,13 +5919,13 @@
       };
       "SSLService::SSLService" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_704";
+         buildConfigurationList = "OBJ_705";
          buildPhases = (
-            "OBJ_707",
-            "OBJ_709"
+            "OBJ_708",
+            "OBJ_711"
          );
          dependencies = (
-            "OBJ_711"
+            "OBJ_713"
          );
          name = "SSLService";
          productName = "SSLService";
@@ -5928,9 +5939,9 @@
       };
       "SSLService::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_713";
+         buildConfigurationList = "OBJ_715";
          buildPhases = (
-            "OBJ_716"
+            "OBJ_718"
          );
          dependencies = (
          );
@@ -5940,10 +5951,10 @@
       };
       "Socket::Socket" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_718";
+         buildConfigurationList = "OBJ_720";
          buildPhases = (
-            "OBJ_721",
-            "OBJ_725"
+            "OBJ_723",
+            "OBJ_727"
          );
          dependencies = (
          );
@@ -5959,9 +5970,9 @@
       };
       "Socket::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_727";
+         buildConfigurationList = "OBJ_729";
          buildPhases = (
-            "OBJ_730"
+            "OBJ_732"
          );
          dependencies = (
          );
@@ -5971,9 +5982,9 @@
       };
       "TypeDecoder::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_740";
+         buildConfigurationList = "OBJ_742";
          buildPhases = (
-            "OBJ_743"
+            "OBJ_745"
          );
          dependencies = (
          );
@@ -5983,10 +5994,10 @@
       };
       "TypeDecoder::TypeDecoder" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_732";
+         buildConfigurationList = "OBJ_734";
          buildPhases = (
-            "OBJ_735",
-            "OBJ_738"
+            "OBJ_737",
+            "OBJ_740"
          );
          dependencies = (
          );

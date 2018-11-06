@@ -23,11 +23,16 @@ class Database {
         });
     }
 
+    userByName(name) {
+        return _.find(this._users, function(user) {
+            return user.username == name;
+        });
+    }
+
     addUser(user) {
         if (user) {
             this._counter += 1;
             this._users.push(user);
-            console.log(this._users);
         }
     }
 

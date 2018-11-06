@@ -14,9 +14,8 @@ final class UserController {
     func create(_ req: Request) throws -> Future<User.AuthenticatedUser> {
         return try req.content.decode(User.self).flatMap { user in
             let hasher = try req.make(BCryptDigest.self)
-            let passwordHashed = try hasher.hash(user.password)
-            let newUser = User(username: user.username, password: passwordHashed)
-            return newUser.save(on: req).map(to: User.AuthenticatedUser.self) { authedUser in
+            user.password = try hasher.hash(user.password)
+            return user.save(on: req).map(to: User.AuthenticatedUser.self) { authedUser in
                 return try User.AuthenticatedUser(username: authedUser.username, id: authedUser.requireID())
             }
         }

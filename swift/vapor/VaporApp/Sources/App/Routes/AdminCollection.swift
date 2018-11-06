@@ -9,12 +9,12 @@ import Crypto
 class AdminCollection: RouteCollection {
     func boot(router: Router) throws {
 
-        let basicAuthMiddleware = User.basicAuthMiddleware(using: BCrypt)
+        let basicAuthMiddleware = User.basicAuthMiddleware(using: BCryptDigest())
         let guardAuthMiddleware = User.guardAuthMiddleware()
         let basicAuthGroup = router.grouped([basicAuthMiddleware, guardAuthMiddleware])
 
         basicAuthGroup.get("admin") { request in
-            return "Welcome to admin page!"
+            return "Admin page"
         }
     }
 }

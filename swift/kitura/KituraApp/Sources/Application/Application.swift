@@ -17,7 +17,7 @@ public class App {
         let authentication = Authentication()
         router.all("/admin", middleware: authentication.credentials)
         router.get("/admin") { req, res, next in
-            try res.send("Welcome to admin page!").end()
+            try res.send("Admin page").end()
         }
     }
 

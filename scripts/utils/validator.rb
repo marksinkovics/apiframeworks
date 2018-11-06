@@ -43,8 +43,9 @@ class Validator
         Command.new('Basic API versioning', "GET localhost:8080/api/1/user"),
         Command.new("Create new user",  "POST localhost:8080/api/1/user username=\"user1\""),
         Command.new("Router parameter handling", "GET localhost:8080/api/1/user/1"),
+        Command.new("Basic authentication with user1", "-a user1:password GET localhost:8080/admin"),
         Command.new("Rename user with id 1", "PUT localhost:8080/api/1/user/1 username=\"renamed_user1\""),
-        Command.new("Delete user with id 1", "DELETE localhost:8080/api/1/user/1")
+        Command.new("Delete user with id 1", "DELETE localhost:8080/api/1/user/1"),
     ]
 
     def initialize(arguments)

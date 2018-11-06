@@ -2,10 +2,25 @@
 
 const express = require('express');
 const basicAuth = require('express-basic-auth');
+const UserModel = require('../model/user.js')
+const database = require('../database/database.js')
 
 const router = express.Router();
-router.use(basicAuth({users: { 'user': 'pass' }}));
 
-router.get('/', (req, res) => (res.send("Welcome to admin page!")));
+router.use(
+    basicAuth({
+        authorizer: myAuthorizer
+    })
+);
 
-module.exports = router; 
+function myAuthorizer(username, password) {
+    const user = database.userByName(username)
+    if (user) {
+        return user.password == password;
+    }
+    return false;
+}
+
+router.get('/', (req, res) => (res.send("Admin page")));
+
+module.exports = router;
