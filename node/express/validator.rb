@@ -2,8 +2,7 @@ require_relative '../../scripts/utils/validator.rb'
 
 class ExpressValidator < Validator
     def start
-        @server_cmd = "node src/index.js"
-        @working_dir = File.join(__dir__, 'ExpressApp')
+        @server = Server.new("node src/index.js", File.join(__dir__, 'ExpressApp'), @arguments)
         super
     end
 end

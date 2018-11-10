@@ -6,10 +6,40 @@ require_relative 'parser.rb'
 require_relative 'colorize.rb'
 require_relative 'log.rb'
 
+class Server
+    attr_accessor :child_pid, :server_cmd, :working_dir
+    attr_accessor :arguments
+
+    def initialize(server_cmd, working_dir)
+        @server_cmd = server_cmd
+        @working_dir = working_dir
+        @arguments = arguments
+    end
+
+    def start
+        @child_pid = spawn(@server_cmd,
+            :chdir=>@working_dir,
+            :pgroup => true,
+            :out=>"/dev/null",
+            :err=>"/dev/null"
+        )
+        sleep(0.5)
+        # Log::info("Process started: #{child_pid}")
+    end
+
+    def stop
+        # Help: https://github.com/travis-ci/travis-ci/issues/8811
+        Process.kill(-9, -@child_pid)
+        # Log::info("Process finished: #{child_pid}")
+    end
+end
+
+
 class Validator
 
     attr_accessor :child_pid, :server_cmd, :working_dir
-        :arguments
+    attr_accessor :arguments
+    attr_accessor :server
 
     class Command
         attr_accessor :name, :command
@@ -61,20 +91,22 @@ class Validator
     end
 
     def start
-        @child_pid = spawn(@server_cmd,
-            :chdir=>@working_dir,
-            :pgroup => true,
-            :out=>"/dev/null",
-            :err=>"/dev/null"
-        )
-        sleep(0.5)
-        Log::info("Process started: #{child_pid}") if @arguments.verbose
+        @server.start
+        # @child_pid = spawn(@server_cmd,
+        #     :chdir=>@working_dir,
+        #     :pgroup => true,
+        #     :out=>"/dev/null",
+        #     :err=>"/dev/null"
+        # )
+        # sleep(0.5)
+        # Log::info("Process started: #{child_pid}") if @arguments.verbose
     end
 
     def stop
-        # Help: https://github.com/travis-ci/travis-ci/issues/8811
-        Process.kill(-9, -@child_pid)
-        Log::info("Process finished: #{child_pid}") if @arguments.verbose
+        @server.stop
+        # # Help: https://github.com/travis-ci/travis-ci/issues/8811
+        # Process.kill(-9, -@child_pid)
+        # Log::info("Process finished: #{child_pid}") if @arguments.verbose
     end
 
 end
