@@ -25,3 +25,4 @@ Rust | Rocket.rs | | | | | |
 C++ | Pistache | | | | | |
 Python | [_TBD_] | | | | | |
 Ruby | [Sinatra](http://sinatrarb.com) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+Java | [Spring](https://spring.io/projects/spring-boot) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
